@@ -207,8 +207,8 @@
         <rect x="360" y="300" width="300" height="360" fill="url(#navyA)" stroke="#0f1828"/>
         <line x1="510" y1="300" x2="510" y2="660" stroke="#0f1828"/>
         <!-- 12" vertical pulls mid-height (~38-50" off floor) -->
-        <rect x="497" y="420" width="6" height="100" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
-        <rect x="517" y="420" width="6" height="100" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="497" y="420" width="6" height="120" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="517" y="420" width="6" height="120" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
       <!-- Col 3 (x=668-1028, 36"): W363712 oak upper stacked above WOS3612 open shelf -->
@@ -313,13 +313,14 @@
         <circle cx="1370" cy="525" r="6" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- W242224 small navy upper at far right: x=1507.5-1747.5, y=60-200 -->
+      <!-- W242224 tall navy upper at far right (~49" tall): x=1507.5-1747.5, y=60-330 -->
       <g>
-        <rect x="1507.5" y="60" width="240" height="140" fill="url(#navyB)" stroke="#0f1828"/>
-        <line x1="1627.5" y1="60" x2="1627.5" y2="200" stroke="#0f1828"/>
+        <rect x="1507.5" y="60" width="240" height="270" fill="url(#navyB)" stroke="#0f1828"/>
+        <line x1="1627.5" y1="60" x2="1627.5" y2="330" stroke="#0f1828"/>
         <text x="1627.5" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W242224</text>
-        <circle cx="1617.5" cy="187" r="6" fill="#b8945a" stroke="#8a6d3f"/>
-        <circle cx="1637.5" cy="187" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <!-- 2 knobs at bottom-inside corner -->
+        <circle cx="1617.5" cy="315" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="1637.5" cy="315" r="6" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
       <!-- ========= BASES (left to right) ========= -->
@@ -382,19 +383,23 @@
         <rect x="1357" y="383" width="6" height="80" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- OVD2484 wall oven cabinet (navy, full-height under W242224): x=1507.5-1747.5, y=200-660 -->
+      <!-- OVD2484 wall oven cabinet (navy, below W242224): x=1507.5-1747.5, y=330-660.
+           Compact steam oven + microwave cutouts above two navy drawers. -->
       <g>
-        <rect x="1507.5" y="200" width="240" height="460" fill="url(#navyB)" stroke="#0f1828"/>
-        <!-- wall oven inset (appliance) -->
-        <rect x="1537.5" y="240" width="180" height="240" fill="#eaeaea" stroke="#aaa"/>
-        <text x="1627.5" y="365" font-size="11" fill="#888" text-anchor="middle" font-style="italic">wall oven</text>
-        <!-- two drawer dividers below oven -->
-        <line x1="1507.5" y1="480" x2="1747.5" y2="480" stroke="#0f1828"/>
-        <line x1="1507.5" y1="570" x2="1747.5" y2="570" stroke="#0f1828"/>
-        <text x="1627.5" y="220" font-size="11" fill="#6b6b6b" text-anchor="middle">OVD2484</text>
-        <!-- 8" horizontal pull on each drawer -->
-        <rect x="1587.5" y="520" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
-        <rect x="1587.5" y="610" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="1507.5" y="330" width="240" height="330" fill="url(#navyB)" stroke="#0f1828"/>
+        <text x="1627.5" y="350" font-size="11" fill="#6b6b6b" text-anchor="middle">OVD2484</text>
+        <!-- Steam oven cutout (oak inset) -->
+        <rect x="1537.5" y="365" width="180" height="95" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <text x="1627.5" y="418" font-size="10" fill="#6b6b6b" text-anchor="middle" font-style="italic">steam oven</text>
+        <!-- Microwave cutout (oak inset) -->
+        <rect x="1537.5" y="468" width="180" height="80" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <text x="1627.5" y="513" font-size="10" fill="#6b6b6b" text-anchor="middle" font-style="italic">microwave</text>
+        <!-- two navy drawers at bottom -->
+        <line x1="1507.5" y1="558" x2="1747.5" y2="558" stroke="#0f1828"/>
+        <line x1="1507.5" y1="609" x2="1747.5" y2="609" stroke="#0f1828"/>
+        <!-- 8" horizontal pull on each drawer (centered) -->
+        <rect x="1587.5" y="580" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="1587.5" y="631" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
       <!-- 1½" right-end filler -->
@@ -513,14 +518,14 @@
       <tr><td>B12-PULL trash pull-out (between DW and range)</td><td>1 × 5" Trail pull, horizontal</td><td>Top of face</td></tr>
       <tr><td>RANGE3.30</td><td>none</td><td>appliance</td></tr>
       <tr><td>B15R (single door, right of range)</td><td>1 × 8" Trail pull, vertical (top-left)</td><td>—</td></tr>
-      <tr><td>OVD2484 wall oven cabinet (navy)</td><td>2 × 8" Trail pull, horizontal</td><td>Two drawers below wall oven appliance</td></tr>
+      <tr><td>OVD2484 wall oven cabinet (navy)</td><td>2 × 8" Trail pull, horizontal</td><td>Two drawers below steam oven + microwave</td></tr>
       <tr><td>WB354912L (corner upper, oak)</td><td>1 × Paxton knob</td><td>Visible portion (23¼" wide)</td></tr>
       <tr><td>W3630 (oak upper)</td><td>2 × Paxton knob</td><td>Bottom-inside corner</td></tr>
       <tr><td>WOS3612</td><td>none</td><td>open shelf, below W3630</td></tr>
       <tr><td>W314912 (oak tall upper)</td><td>2 × Paxton knob</td><td>Bottom-inside corner</td></tr>
       <tr><td>W304322 (hood surround)</td><td>none</td><td>no doors</td></tr>
       <tr><td>W144912R (oak narrow upper)</td><td>1 × Paxton knob</td><td>Bottom-LEFT corner (single door)</td></tr>
-      <tr><td>W242224 (small navy upper above OVD2484)</td><td>2 × Paxton knob</td><td>Bottom-inside corner of each door</td></tr>
+      <tr><td>W242224 (tall navy upper above OVD2484)</td><td>2 × Paxton knob</td><td>Bottom-inside corner of each door</td></tr>
     </tbody>
   </table>
 
