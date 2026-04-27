@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>461 Anderson — Kitchen Hardware Plan</title>
+<meta name="description" content="Final hardware specification for the 461 Anderson kitchen renovation. Emtek Satin Brass, 36 pieces, with elevation diagrams." />
+<style>
+  :root {
+    --navy: #1f2a44;
+    --oak: #c8a472;
+    --brass: #b8945a;
+    --brass-dark: #8a6d3f;
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --rule: #e2ddd2;
+    --bg: #faf7f1;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: ui-sans-serif, -apple-system, "Inter", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 48px 24px 96px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 24px; margin-bottom: 40px; }
+  h1 {
+    font-family: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(32px, 4.5vw, 48px);
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  .sub { color: var(--muted); font-size: 15px; }
+  h2 {
+    font-family: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 56px 0 16px;
+    letter-spacing: -0.01em;
+  }
+  h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--brass-dark);
+    margin: 32px 0 8px;
+  }
+  p { margin: 0 0 12px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; background: var(--card); }
+  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-weight: 600; background: #f3eee2; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tr.total td { font-weight: 600; background: #f8f4e8; }
+  .pill {
+    display: inline-block; padding: 2px 8px; border-radius: 999px;
+    background: #f3eee2; color: var(--brass-dark);
+    font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600;
+  }
+  .grid { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin: 24px 0; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 20px;
+  }
+  .card .k { font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+  .card .v { font-family: "Cormorant Garamond", Georgia, serif; font-size: 30px; margin-top: 4px; }
+  .elevation {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 20px;
+    margin: 16px 0 32px;
+    overflow-x: auto;
+  }
+  .elevation svg { display: block; max-width: 100%; height: auto; }
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 16px;
+    font-size: 13px; color: var(--muted); margin-top: 12px;
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .swatch { width: 14px; height: 14px; border-radius: 2px; border: 1px solid rgba(0,0,0,0.1); }
+  .swatch.navy { background: var(--navy); }
+  .swatch.oak { background: var(--oak); }
+  .swatch.brass { background: var(--brass); border-color: var(--brass-dark); }
+  footer {
+    margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: 13px;
+  }
+  a { color: var(--brass-dark); }
+  code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; background: #f3eee2; padding: 1px 5px; border-radius: 3px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="pill">Final spec · locked</span>
+  <h1>461 Anderson — Kitchen Hardware</h1>
+  <p class="sub">36 pieces · Emtek Satin Brass (US4) · Paxton round knobs + Trail bar pulls</p>
+</header>
+
+<section>
+  <div class="grid">
+    <div class="card">
+      <div class="k">Pieces</div>
+      <div class="v">36</div>
+    </div>
+    <div class="card">
+      <div class="k">Subtotal</div>
+      <div class="v">$855.14</div>
+    </div>
+    <div class="card">
+      <div class="k">After WKD coupon</div>
+      <div class="v">$769.63</div>
+    </div>
+    <div class="card">
+      <div class="k">All-in (with CA tax)</div>
+      <div class="v">~$836</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Order summary</h2>
+  <table>
+    <thead>
+      <tr><th>Item</th><th>SKU</th><th class="num">Qty</th><th class="num">Each</th><th class="num">Total</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Paxton Knob 1¼" round</td><td>86642-US4</td><td class="num">18</td><td class="num">$13.21</td><td class="num">$237.78</td></tr>
+      <tr><td>Trail Pull 3" CtC</td><td>86161-US4</td><td class="num">3</td><td class="num">$17.61</td><td class="num">$52.83</td></tr>
+      <tr><td>Trail Pull 5" CtC</td><td>86272-US4</td><td class="num">2</td><td class="num">$24.66</td><td class="num">$49.32</td></tr>
+      <tr><td>Trail Pull 8" CtC</td><td>86165-US4</td><td class="num">11</td><td class="num">$36.11</td><td class="num">$397.21</td></tr>
+      <tr><td>Trail Pull 12" CtC</td><td>86166-US4</td><td class="num">2</td><td class="num">$59.00</td><td class="num">$118.00</td></tr>
+      <tr><td colspan="4">Subtotal</td><td class="num">$855.14</td></tr>
+      <tr><td colspan="4">WKD coupon (10%)</td><td class="num">−$85.51</td></tr>
+      <tr><td colspan="4">Ground shipping</td><td class="num">Free</td></tr>
+      <tr class="total"><td colspan="4">Grand total (pre-tax)</td><td class="num">$769.63</td></tr>
+      <tr><td colspan="4">Estimated CA sales tax (~8.6%)</td><td class="num">~$66</td></tr>
+      <tr class="total"><td colspan="4">All-in estimate</td><td class="num">~$836</td></tr>
+    </tbody>
+  </table>
+  <p style="margin-top: 12px; font-size: 14px;">Cart pre-filled at <a href="https://ccbrass.com/?page=cart&amp;action=list">Cape Cod Brass</a> · apply coupon <code>WKD</code> at checkout.</p>
+</section>
+
+<section>
+  <h2>Elevations</h2>
+  <p>Schematic plan view — not to exact scale. Brass dots = Paxton knob. Brass bars = Trail pull (oriented as installed).</p>
+  <div class="legend">
+    <span><span class="swatch navy"></span> AGT Night Blue</span>
+    <span><span class="swatch oak"></span> Shinnoki Oak</span>
+    <span><span class="swatch brass"></span> Emtek Satin Brass hardware</span>
+  </div>
+
+  <h3>Wall A — Fridge + Pantry · 119" wide</h3>
+  <div class="elevation">
+    <svg viewBox="0 0 1190 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wall A elevation">
+      <defs>
+        <pattern id="oakA" patternUnits="userSpaceOnUse" width="14" height="14">
+          <rect width="14" height="14" fill="#c8a472"/>
+          <path d="M0,7 Q3.5,5 7,7 T14,7" stroke="#a3814f" stroke-width="0.7" fill="none" opacity="0.5"/>
+        </pattern>
+        <pattern id="navyA" patternUnits="userSpaceOnUse" width="14" height="14">
+          <rect width="14" height="14" fill="#1f2a44"/>
+          <path d="M0,7 Q3.5,5 7,7 T14,7" stroke="#0f1828" stroke-width="0.7" fill="none" opacity="0.6"/>
+        </pattern>
+      </defs>
+
+      <!-- floor + ceiling guides -->
+      <line x1="0" y1="660" x2="1190" y2="660" stroke="#cdc6b6" stroke-width="1"/>
+      <text x="0" y="690" font-size="11" fill="#6b6b6b">0"</text>
+      <text x="1180" y="690" font-size="11" fill="#6b6b6b" text-anchor="end">119"</text>
+
+      <!-- RW363424 navy upper above fridge: x 0-360, y 60-300 -->
+      <g>
+        <rect x="0" y="60" width="360" height="240" fill="url(#navyA)" stroke="#0f1828"/>
+        <line x1="180" y1="60" x2="180" y2="300" stroke="#0f1828" stroke-width="1"/>
+        <text x="180" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">RW363424 (navy)</text>
+        <!-- knobs bottom-inside corners of each door -->
+        <circle cx="170" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="190" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- W363712 oak upper: x 360-720, y 180-540 -->
+      <g>
+        <rect x="360" y="180" width="360" height="360" fill="url(#oakA)" stroke="#8a6d3f"/>
+        <line x1="540" y1="180" x2="540" y2="540" stroke="#8a6d3f" stroke-width="1"/>
+        <text x="540" y="170" font-size="11" fill="#6b6b6b" text-anchor="middle">W363712 (oak)</text>
+        <circle cx="530" cy="525" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="550" cy="525" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- REF.2D.36 fridge: x 0-360, y 300-660 (no hardware) -->
+      <g>
+        <rect x="0" y="300" width="360" height="360" fill="#eaeaea" stroke="#aaa"/>
+        <line x1="180" y1="300" x2="180" y2="660" stroke="#aaa"/>
+        <text x="180" y="490" font-size="13" fill="#888" text-anchor="middle" font-style="italic">REF.2D.36</text>
+        <text x="180" y="510" font-size="11" fill="#aaa" text-anchor="middle">appliance · no hardware</text>
+      </g>
+
+      <!-- WOS3612 open shelf: x 360-720, y 540-660 (none) -->
+      <g>
+        <rect x="360" y="540" width="360" height="120" fill="#f3eee2" stroke="#cdc6b6" stroke-dasharray="4 3"/>
+        <text x="540" y="605" font-size="12" fill="#888" text-anchor="middle" font-style="italic">WOS3612 · open shelf</text>
+      </g>
+
+      <!-- U3010625 pantry tower: x 720-1020, y 60-660 -->
+      <g>
+        <!-- top doors -->
+        <rect x="720" y="60" width="300" height="180" fill="url(#navyA)" stroke="#0f1828"/>
+        <line x1="870" y1="60" x2="870" y2="240" stroke="#0f1828"/>
+        <text x="870" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">U3010625 pantry</text>
+        <circle cx="860" cy="225" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="880" cy="225" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <!-- bottom doors (66" tall) with 12" vertical pulls -->
+        <rect x="720" y="240" width="300" height="420" fill="url(#navyA)" stroke="#0f1828"/>
+        <line x1="870" y1="240" x2="870" y2="660" stroke="#0f1828"/>
+        <!-- 12" pulls vertical mid-height (~38-50" off floor on inside edges) -->
+        <rect x="857" y="380" width="6" height="100" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="877" y="380" width="6" height="100" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- BBC51-54R blind corner base: x 1020-1190, y 360-660 -->
+      <g>
+        <rect x="1020" y="360" width="170" height="300" fill="url(#navyA)" stroke="#0f1828"/>
+        <text x="1105" y="350" font-size="11" fill="#6b6b6b" text-anchor="middle">BBC51-54R</text>
+        <text x="1105" y="510" font-size="10" fill="#cdc6b6" text-anchor="middle" font-style="italic">pull on Wall B</text>
+      </g>
+
+      <!-- WB354912L upper corner: x 1020-1190, y 180-360 -->
+      <g>
+        <rect x="1020" y="180" width="170" height="180" fill="url(#oakA)" stroke="#8a6d3f"/>
+        <text x="1105" y="170" font-size="11" fill="#6b6b6b" text-anchor="middle">WB354912L</text>
+        <text x="1105" y="280" font-size="10" fill="#6b6b6b" text-anchor="middle" font-style="italic">knob on Wall B</text>
+      </g>
+    </svg>
+  </div>
+
+  <h3>Wall B — Sink + Range · 176¼" wide</h3>
+  <div class="elevation">
+    <svg viewBox="0 0 1762 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wall B elevation">
+      <defs>
+        <pattern id="oakB" patternUnits="userSpaceOnUse" width="14" height="14">
+          <rect width="14" height="14" fill="#c8a472"/>
+          <path d="M0,7 Q3.5,5 7,7 T14,7" stroke="#a3814f" stroke-width="0.7" fill="none" opacity="0.5"/>
+        </pattern>
+        <pattern id="navyB" patternUnits="userSpaceOnUse" width="14" height="14">
+          <rect width="14" height="14" fill="#1f2a44"/>
+          <path d="M0,7 Q3.5,5 7,7 T14,7" stroke="#0f1828" stroke-width="0.7" fill="none" opacity="0.6"/>
+        </pattern>
+      </defs>
+
+      <line x1="0" y1="660" x2="1762" y2="660" stroke="#cdc6b6"/>
+      <text x="0" y="690" font-size="11" fill="#6b6b6b">0"</text>
+      <text x="1755" y="690" font-size="11" fill="#6b6b6b" text-anchor="end">176¼"</text>
+
+      <!-- WB354912L visible 23¼" oak upper: x 0-233, y 180-540 -->
+      <g>
+        <rect x="0" y="180" width="233" height="360" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <text x="116" y="170" font-size="11" fill="#6b6b6b" text-anchor="middle">WB354912L (corner)</text>
+        <circle cx="218" cy="525" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- W3630 oak upper: x 233-593, y 180-480 -->
+      <g>
+        <rect x="233" y="180" width="360" height="300" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <line x1="413" y1="180" x2="413" y2="480" stroke="#8a6d3f"/>
+        <text x="413" y="170" font-size="11" fill="#6b6b6b" text-anchor="middle">W3630</text>
+        <circle cx="403" cy="465" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="423" cy="465" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- WOS3612 open shelf: x 593-953, y 180-300 -->
+      <g>
+        <rect x="593" y="180" width="360" height="120" fill="#f3eee2" stroke="#cdc6b6" stroke-dasharray="4 3"/>
+        <text x="773" y="245" font-size="12" fill="#888" text-anchor="middle" font-style="italic">WOS3612 · open shelf</text>
+      </g>
+
+      <!-- W314912 oak tall upper: x 593-908, y 300-540 -->
+      <g>
+        <rect x="593" y="300" width="315" height="240" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <line x1="751" y1="300" x2="751" y2="540" stroke="#8a6d3f"/>
+        <text x="751" y="290" font-size="11" fill="#6b6b6b" text-anchor="middle">W314912</text>
+        <circle cx="741" cy="525" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="761" cy="525" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- W304322 hood surround: x 908-1208, y 60-360 -->
+      <g>
+        <rect x="908" y="60" width="300" height="300" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <text x="1058" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W304322 hood surround</text>
+        <text x="1058" y="220" font-size="11" fill="#6b6b6b" text-anchor="middle" font-style="italic">no doors</text>
+      </g>
+
+      <!-- W144912R narrow oak upper: x 1208-1350, y 180-540 -->
+      <g>
+        <rect x="1208" y="180" width="142" height="360" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <text x="1279" y="170" font-size="11" fill="#6b6b6b" text-anchor="middle">W144912R</text>
+        <circle cx="1340" cy="525" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- DO2410625 navy upper top doors: x 1350-1590, y 60-240 -->
+      <g>
+        <rect x="1350" y="60" width="240" height="180" fill="url(#navyB)" stroke="#0f1828"/>
+        <line x1="1470" y1="60" x2="1470" y2="240" stroke="#0f1828"/>
+        <text x="1470" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">DO2410625 upper</text>
+        <circle cx="1460" cy="225" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="1480" cy="225" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+      <!-- DO2410625 oven: x 1350-1590, y 240-540 (appliance) -->
+      <g>
+        <rect x="1350" y="240" width="240" height="300" fill="#eaeaea" stroke="#aaa"/>
+        <text x="1470" y="395" font-size="12" fill="#888" text-anchor="middle" font-style="italic">wall oven</text>
+      </g>
+      <!-- DO2410625 bottom drawer: x 1350-1590, y 540-660 with 8" horizontal pull centered -->
+      <g>
+        <rect x="1350" y="540" width="240" height="120" fill="url(#navyB)" stroke="#0f1828"/>
+        <rect x="1430" y="555" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- BBC51-54R visible 24¾" base: x 1590-1837 (clip to 1762) -->
+      <g>
+        <rect x="1590" y="360" width="172" height="300" fill="url(#navyB)" stroke="#0f1828"/>
+        <text x="1676" y="350" font-size="11" fill="#6b6b6b" text-anchor="middle">BBC51-54R</text>
+        <!-- 8" vertical pull top-left -->
+        <rect x="1605" y="380" width="6" height="80" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- Base run below uppers (sink/range area, y 360-660) -->
+      <!-- 3DB12 narrow drawers: x 0-120 -->
+      <g>
+        <rect x="0" y="360" width="120" height="300" fill="url(#navyB)" stroke="#0f1828"/>
+        <line x1="0" y1="460" x2="120" y2="460" stroke="#0f1828"/>
+        <line x1="0" y1="560" x2="120" y2="560" stroke="#0f1828"/>
+        <text x="60" y="350" font-size="11" fill="#6b6b6b" text-anchor="middle">3DB12</text>
+        <rect x="45" y="403" width="30" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="45" y="503" width="30" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="45" y="603" width="30" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- SB30 sink base: x 120-420 -->
+      <g>
+        <rect x="120" y="360" width="300" height="300" fill="url(#navyB)" stroke="#0f1828"/>
+        <line x1="270" y1="360" x2="270" y2="660" stroke="#0f1828"/>
+        <text x="270" y="350" font-size="11" fill="#6b6b6b" text-anchor="middle">SB30 sink base</text>
+        <!-- 8" vertical pulls at top, inside edge of each door -->
+        <rect x="257" y="380" width="6" height="80" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="277" y="380" width="6" height="80" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- DISHW24: x 420-660 -->
+      <g>
+        <rect x="420" y="360" width="240" height="300" fill="#eaeaea" stroke="#aaa"/>
+        <text x="540" y="510" font-size="12" fill="#888" text-anchor="middle" font-style="italic">DISHW24</text>
+      </g>
+
+      <!-- B12-PULL trash: x 660-780 -->
+      <g>
+        <rect x="660" y="360" width="120" height="300" fill="url(#navyB)" stroke="#0f1828"/>
+        <text x="720" y="350" font-size="11" fill="#6b6b6b" text-anchor="middle">B12-PULL</text>
+        <rect x="695" y="380" width="50" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- RANGE3.30: x 780-1080 -->
+      <g>
+        <rect x="780" y="360" width="300" height="300" fill="#eaeaea" stroke="#aaa"/>
+        <text x="930" y="510" font-size="12" fill="#888" text-anchor="middle" font-style="italic">RANGE3.30</text>
+      </g>
+
+      <!-- B15R single door: x 1080-1230 -->
+      <g>
+        <rect x="1080" y="360" width="150" height="300" fill="url(#navyB)" stroke="#0f1828"/>
+        <text x="1155" y="350" font-size="11" fill="#6b6b6b" text-anchor="middle">B15R</text>
+        <rect x="1085" y="380" width="6" height="80" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- (Continues to DO oven housing 1350-1590 already drawn, BBC visible 1590+) -->
+      <!-- Spacer base under W314912/W144912R: x 1230-1350 (filler) -->
+      <g>
+        <rect x="1230" y="360" width="120" height="300" fill="url(#navyB)" stroke="#0f1828" opacity="0.7"/>
+      </g>
+    </svg>
+  </div>
+
+  <h3>Island · 73½" wide</h3>
+  <div class="elevation">
+    <svg viewBox="0 0 735 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Island elevation">
+      <defs>
+        <pattern id="navyI" patternUnits="userSpaceOnUse" width="14" height="14">
+          <rect width="14" height="14" fill="#1f2a44"/>
+          <path d="M0,7 Q3.5,5 7,7 T14,7" stroke="#0f1828" stroke-width="0.7" fill="none" opacity="0.6"/>
+        </pattern>
+      </defs>
+      <line x1="0" y1="450" x2="735" y2="450" stroke="#cdc6b6"/>
+      <text x="0" y="475" font-size="11" fill="#6b6b6b">0"</text>
+      <text x="730" y="475" font-size="11" fill="#6b6b6b" text-anchor="end">73½"</text>
+
+      <!-- 1DB27: x 0-270 -->
+      <g>
+        <rect x="0" y="60" width="270" height="390" fill="url(#navyI)" stroke="#0f1828"/>
+        <!-- top drawer -->
+        <line x1="0" y1="150" x2="270" y2="150" stroke="#0f1828"/>
+        <text x="135" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">1DB27</text>
+        <rect x="95" y="100" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <!-- two doors below top drawer -->
+        <line x1="135" y1="150" x2="135" y2="450" stroke="#0f1828"/>
+        <!-- 8" vertical pulls top inside edge of each door -->
+        <rect x="122" y="170" width="6" height="80" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="142" y="170" width="6" height="80" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- 3DB27: x 270-540 -->
+      <g>
+        <rect x="270" y="60" width="270" height="390" fill="url(#navyI)" stroke="#0f1828"/>
+        <line x1="270" y1="190" x2="540" y2="190" stroke="#0f1828"/>
+        <line x1="270" y1="320" x2="540" y2="320" stroke="#0f1828"/>
+        <text x="405" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">3DB27</text>
+        <rect x="365" y="122" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="365" y="252" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="365" y="382" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+
+      <!-- B18-PULL: x 540-720 -->
+      <g>
+        <rect x="540" y="60" width="180" height="390" fill="url(#navyI)" stroke="#0f1828"/>
+        <text x="630" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">B18-PULL</text>
+        <rect x="605" y="80" width="50" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+      </g>
+    </svg>
+  </div>
+
+  <h3>Sitting Area Cabinet · 25½" W × 84" H</h3>
+  <div class="elevation">
+    <svg viewBox="0 0 360 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sitting cabinet elevation">
+      <defs>
+        <pattern id="oakS" patternUnits="userSpaceOnUse" width="14" height="14">
+          <rect width="14" height="14" fill="#c8a472"/>
+          <path d="M0,7 Q3.5,5 7,7 T14,7" stroke="#a3814f" stroke-width="0.7" fill="none" opacity="0.5"/>
+        </pattern>
+      </defs>
+      <line x1="0" y1="570" x2="360" y2="570" stroke="#cdc6b6"/>
+      <text x="50" y="595" font-size="11" fill="#6b6b6b">0"</text>
+      <text x="305" y="595" font-size="11" fill="#6b6b6b" text-anchor="end">25½"</text>
+
+      <!-- cabinet body 60-300 wide, 30-570 tall -->
+      <rect x="60" y="30" width="240" height="540" fill="url(#oakS)" stroke="#8a6d3f"/>
+      <!-- horizontal divider at mid -->
+      <line x1="60" y1="300" x2="300" y2="300" stroke="#8a6d3f" stroke-width="2"/>
+      <!-- top doors split -->
+      <line x1="180" y1="30" x2="180" y2="300" stroke="#8a6d3f"/>
+      <!-- bottom doors split -->
+      <line x1="180" y1="300" x2="180" y2="570" stroke="#8a6d3f"/>
+
+      <text x="180" y="20" font-size="11" fill="#6b6b6b" text-anchor="middle">Sitting cabinet (furniture piece)</text>
+
+      <!-- 4 knobs converging on horizontal divider -->
+      <!-- top doors: knobs at bottom-inside corner -->
+      <circle cx="170" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+      <circle cx="190" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+      <!-- bottom doors: knobs at top-inside corner -->
+      <circle cx="170" cy="315" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+      <circle cx="190" cy="315" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+    </svg>
+  </div>
+</section>
+
+<section>
+  <h2>Per-cabinet hardware assignment</h2>
+
+  <h3>Wall A — Fridge + Pantry (119" wide)</h3>
+  <table>
+    <thead><tr><th>Cabinet</th><th>Hardware</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>RW363424 (navy upper above fridge)</td><td>2 × Paxton knob</td><td>Bottom-inside corner of each door</td></tr>
+      <tr><td>W363712 (oak upper)</td><td>2 × Paxton knob</td><td>Bottom-inside corner of each door</td></tr>
+      <tr><td>WB354912L</td><td>knob shown on Wall B view</td><td>corner cabinet</td></tr>
+      <tr><td>WOS3612</td><td>none</td><td>open shelf</td></tr>
+      <tr><td>U3010625 pantry top doors</td><td>2 × Paxton knob</td><td>Bottom-inside corner</td></tr>
+      <tr><td>U3010625 pantry bottom doors</td><td>2 × 12" Trail pull, vertical</td><td>Mounted at ~38–50" off floor (ergonomic reach)</td></tr>
+      <tr><td>BBC51-54R (base blind corner)</td><td>pull shown on Wall B view</td><td>—</td></tr>
+      <tr><td>REF.2D.36</td><td>none</td><td>appliance</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Wall B — Sink + Range (176¼" wide)</h3>
+  <table>
+    <thead><tr><th>Cabinet</th><th>Hardware</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>WB354912L (corner upper, oak)</td><td>1 × Paxton knob</td><td>Visible portion (23¼" wide)</td></tr>
+      <tr><td>W3630 (oak upper)</td><td>2 × Paxton knob</td><td>Standard placement</td></tr>
+      <tr><td>WOS3612</td><td>none</td><td>open shelf</td></tr>
+      <tr><td>W314912 (oak tall upper)</td><td>2 × Paxton knob</td><td>—</td></tr>
+      <tr><td>W304322</td><td>none</td><td>hood surround, no doors</td></tr>
+      <tr><td>W144912R (oak narrow upper)</td><td>1 × Paxton knob</td><td>Bottom-LEFT corner (single door)</td></tr>
+      <tr><td>DO2410625 top doors (navy upper)</td><td>2 × Paxton knob</td><td>Bottom-inside corner</td></tr>
+      <tr><td>DO2410625 oven housing</td><td>none</td><td>appliance</td></tr>
+      <tr><td>DO2410625 bottom drawer</td><td>1 × 8" Trail pull, horizontal</td><td>Top of drawer face</td></tr>
+      <tr><td>BBC51-54R (visible 24¾")</td><td>1 × 8" Trail pull, vertical (top-left)</td><td>—</td></tr>
+      <tr><td>3DB12 narrow drawers</td><td>3 × 3" Trail pull, horizontal</td><td>Centered on each drawer</td></tr>
+      <tr><td>SB30 sink base doors</td><td>2 × 8" Trail pull, vertical (top)</td><td>Inside edge of each door</td></tr>
+      <tr><td>DISHW24</td><td>none</td><td>appliance</td></tr>
+      <tr><td>B12-PULL trash pull-out</td><td>1 × 5" Trail pull, horizontal</td><td>Top of face</td></tr>
+      <tr><td>RANGE3.30</td><td>none</td><td>appliance</td></tr>
+      <tr><td>B15R (single door)</td><td>1 × 8" Trail pull, vertical (top-left)</td><td>—</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Island (73½" wide)</h3>
+  <table>
+    <thead><tr><th>Cabinet</th><th>Hardware</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>1DB27 top drawer</td><td>1 × 8" Trail pull, horizontal</td><td>Centered</td></tr>
+      <tr><td>1DB27 doors below (×2)</td><td>2 × 8" Trail pull, vertical (top of door)</td><td>Inside edge</td></tr>
+      <tr><td>3DB27 (3 large drawers)</td><td>3 × 8" Trail pull, horizontal</td><td>Centered</td></tr>
+      <tr><td>B18-PULL pull-out</td><td>1 × 5" Trail pull, horizontal</td><td>Top of face</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Sitting Area Cabinet (25½" W × 84" H, freestanding)</h3>
+  <table>
+    <thead><tr><th>Section</th><th>Hardware</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Top doors (×2)</td><td>2 × Paxton knob</td><td>Bottom-inside corner</td></tr>
+      <tr><td>Bottom doors (×2)</td><td>2 × Paxton knob</td><td>Top-inside corner</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size: 14px; color: var(--muted);">Treats the sitting cabinet as a <strong>furniture piece</strong> (like an armoire) — 4 knobs converging toward the horizontal divider creates a classic furniture pattern.</p>
+</section>
+
+<section>
+  <h2>Design rationale</h2>
+  <ul>
+    <li><strong>Brand: Emtek Satin Brass (US4)</strong> — switched from original Top Knobs Honey Bronze to better match Grohe Minta faucet (Brushed Cool Sunrise). Consolidates with Emtek door hardware (Orb knob in ORB) already specified for the home.</li>
+    <li><strong>Two-collection family:</strong> Paxton round knob (Timeless Classics) for upper doors and the sitting cabinet — transitional, warm, universally readable. Trail bar pulls (Modern Collection) for drawers and lower-cabinet vertical pulls. Identical Satin Brass finish unifies them.</li>
+    <li><strong>1/3 sizing rule</strong> applied to drawers/doors: 3" pulls on 12"-wide drawers, 5" on small pull-outs, 8" on standard drawers and base-cabinet vertical doors, 12" on tall pantry doors.</li>
+    <li><strong>Placement:</strong> drawer pulls centered; lower-door vertical pulls at the top (natural reach); pantry pulls mid-height (~38–50" off floor); upper-door knobs at lower-inside corner; sitting cabinet knobs at upper-inside corner.</li>
+    <li><strong>Considered and rejected:</strong> vertical pulls on navy uppers (too busy); Trail T-Knob (too modernist); all-pulls scheme (too contemporary); 5" verticals on upper doors (stubby/crowded).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Project context</h2>
+  <table>
+    <tbody>
+      <tr><td>Cabinet finish</td><td>AGT Night Blue (lowers + tall pantry + RW363424 + DO upper) · Shinnoki Oak (most uppers)</td></tr>
+      <tr><td>Countertop</td><td>Taj Lusso Quartzite</td></tr>
+      <tr><td>Backsplash</td><td>Fireclay Golden Hour 3"×3" (set diamond)</td></tr>
+      <tr><td>Sink</td><td>Blanco Quatrus R15 28" undermount stainless</td></tr>
+      <tr><td>Faucet</td><td>Grohe Minta in Brushed Cool Sunrise</td></tr>
+      <tr><td>Range / Wall oven</td><td>RANGE3.30 · single oven w/ drawer below (DO2410625)</td></tr>
+      <tr><td>Door hardware (whole home)</td><td>Emtek Orb knob, Oil Rubbed Bronze (intentionally different from cabinet hardware)</td></tr>
+      <tr><td>Trim</td><td>Swiss Coffee (OC-45)</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<footer>
+  461 Anderson kitchen · hardware spec locked · static site deployed on Vercel.
+</footer>
+
+</div>
+</body>
+</html>
