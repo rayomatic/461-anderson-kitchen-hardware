@@ -162,7 +162,7 @@
 
   <h3>Wall A — Fridge + Pantry · 119" wide</h3>
   <div class="elevation">
-    <svg viewBox="0 0 1190 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wall A elevation">
+    <svg viewBox="0 0 1190 1100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wall A elevation">
       <defs>
         <pattern id="oakA" patternUnits="userSpaceOnUse" width="14" height="14">
           <rect width="14" height="14" fill="#c8a472"/>
@@ -174,79 +174,89 @@
         </pattern>
       </defs>
 
-      <!-- floor + ceiling guides -->
-      <line x1="0" y1="660" x2="1190" y2="660" stroke="#cdc6b6" stroke-width="1"/>
-      <text x="0" y="690" font-size="11" fill="#6b6b6b">0"</text>
-      <text x="1180" y="690" font-size="11" fill="#6b6b6b" text-anchor="end">119"</text>
+      <!-- Vertical bands (10 px/inch — true proportions):
+           y=60-300   RW363424 / U3010625 top doors (24" tall)
+           y=300-1030 fridge & pantry bottom (73" tall)
+           Right side: y=60-550 uppers · y=550-670 backsplash · y=670-678 counter · y=678-1030 base -->
 
-      <!-- Col 1 (x=0-360, 36"): RW363424 navy upper above REF.2D.36 fridge -->
+      <line x1="0" y1="1030" x2="1190" y2="1030" stroke="#cdc6b6" stroke-width="1"/>
+      <text x="0" y="1060" font-size="11" fill="#6b6b6b">0"</text>
+      <text x="1180" y="1060" font-size="11" fill="#6b6b6b" text-anchor="end">119"</text>
+
+      <!-- ========= Col 1 (x=12.5-372.5, 36"): RW363424 above REF.2D.36 fridge ========= -->
       <g>
-        <rect x="0" y="60" width="360" height="240" fill="url(#navyA)" stroke="#0f1828"/>
-        <line x1="180" y1="60" x2="180" y2="300" stroke="#0f1828" stroke-width="1"/>
-        <text x="180" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">RW363424</text>
-        <circle cx="170" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
-        <circle cx="190" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="12.5" y="60" width="360" height="240" fill="url(#navyA)" stroke="#0f1828"/>
+        <line x1="192.5" y1="60" x2="192.5" y2="300" stroke="#0f1828"/>
+        <text x="192.5" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">RW363424</text>
+        <circle cx="182.5" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="202.5" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
       <g>
-        <rect x="0" y="300" width="360" height="360" fill="#eaeaea" stroke="#aaa"/>
-        <line x1="180" y1="300" x2="180" y2="660" stroke="#aaa"/>
-        <text x="180" y="490" font-size="13" fill="#888" text-anchor="middle" font-style="italic">REF.2D.36</text>
-        <text x="180" y="510" font-size="11" fill="#aaa" text-anchor="middle">appliance · no hardware</text>
+        <!-- REF.2D.36 fridge (36" wide × 73" tall) -->
+        <rect x="12.5" y="300" width="360" height="730" fill="#eaeaea" stroke="#aaa"/>
+        <line x1="192.5" y1="300" x2="192.5" y2="1030" stroke="#aaa"/>
+        <!-- vertical handle running most of the door height -->
+        <rect x="195.5" y="350" width="4" height="600" rx="1" fill="#444"/>
+        <text x="192.5" y="680" font-size="13" fill="#888" text-anchor="middle" font-style="italic">REF.2D.36</text>
+        <text x="192.5" y="700" font-size="11" fill="#aaa" text-anchor="middle">appliance · no hardware</text>
       </g>
 
-      <!-- Col 2 (x=360-660, 30"): U3010625 navy pantry, full floor-to-ceiling.
-           Top doors aligned with RW363424; bottom doors aligned with fridge. -->
+      <!-- ========= Col 2 (x=372.5-672.5, 30"): U3010625 navy pantry, full floor-to-ceiling ========= -->
       <g>
-        <!-- top doors (24" tall, same as RW363424) -->
-        <rect x="360" y="60" width="300" height="240" fill="url(#navyA)" stroke="#0f1828"/>
-        <line x1="510" y1="60" x2="510" y2="300" stroke="#0f1828"/>
-        <text x="510" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">U3010625 pantry</text>
-        <circle cx="500" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
-        <circle cx="520" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
-        <!-- bottom doors (66" tall, aligned with fridge) -->
-        <rect x="360" y="300" width="300" height="360" fill="url(#navyA)" stroke="#0f1828"/>
-        <line x1="510" y1="300" x2="510" y2="660" stroke="#0f1828"/>
-        <!-- 12" vertical pulls mid-height (~38-50" off floor) -->
-        <rect x="497" y="420" width="6" height="120" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
-        <rect x="517" y="420" width="6" height="120" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <!-- top doors (24" tall, aligned with RW363424) -->
+        <rect x="372.5" y="60" width="300" height="240" fill="url(#navyA)" stroke="#0f1828"/>
+        <line x1="522.5" y1="60" x2="522.5" y2="300" stroke="#0f1828"/>
+        <text x="522.5" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">U3010625 pantry</text>
+        <circle cx="512.5" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="532.5" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <!-- bottom doors (73" tall, aligned with fridge) -->
+        <rect x="372.5" y="300" width="300" height="730" fill="url(#navyA)" stroke="#0f1828"/>
+        <line x1="522.5" y1="300" x2="522.5" y2="1030" stroke="#0f1828"/>
+        <!-- 12" vertical pulls at ~38-50" off floor -->
+        <rect x="509.5" y="530" width="6" height="120" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="531.5" y="530" width="6" height="120" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- Col 3 (x=668-1028, 36"): W363712 oak upper stacked above WOS3612 open shelf -->
+      <!-- ========= Col 3 (x=680-1040, 36"): W363712 oak upper + WOS3612 open shelf ========= -->
       <g>
-        <rect x="668" y="60" width="360" height="310" fill="url(#oakA)" stroke="#8a6d3f"/>
-        <line x1="848" y1="60" x2="848" y2="370" stroke="#8a6d3f"/>
-        <text x="848" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W363712</text>
-        <circle cx="838" cy="355" r="6" fill="#b8945a" stroke="#8a6d3f"/>
-        <circle cx="858" cy="355" r="6" fill="#b8945a" stroke="#8a6d3f"/>
-        <!-- WOS3612 open shelf below -->
-        <rect x="668" y="370" width="360" height="120" fill="#f3eee2" stroke="#cdc6b6" stroke-dasharray="4 3"/>
-        <text x="848" y="435" font-size="12" fill="#888" text-anchor="middle" font-style="italic">WOS3612 · open shelf</text>
+        <!-- W363712 (37" tall) -->
+        <rect x="680" y="60" width="360" height="370" fill="url(#oakA)" stroke="#8a6d3f"/>
+        <line x1="860" y1="60" x2="860" y2="430" stroke="#8a6d3f"/>
+        <text x="860" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W363712</text>
+        <circle cx="850" cy="415" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="870" cy="415" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <!-- WOS3612 dark recessed open shelf, 12" tall -->
+        <rect x="680" y="430" width="360" height="120" fill="#3a2b1d" stroke="#1f1610"/>
+        <text x="860" y="497" font-size="12" fill="#cdc6b6" text-anchor="middle" font-style="italic">WOS3612 · open shelf</text>
       </g>
 
-      <!-- Col 4 (x=1028-1175): WB354912L tall oak corner upper -->
+      <!-- ========= Col 4 (x=1040-1187.5, ~14¾"): WB354912L tall oak corner upper ========= -->
       <g>
-        <rect x="1028" y="60" width="147" height="430" fill="url(#oakA)" stroke="#8a6d3f"/>
-        <text x="1101" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">WB354912L</text>
-        <text x="1101" y="265" font-size="10" fill="#6b6b6b" text-anchor="middle" font-style="italic">knob on</text>
-        <text x="1101" y="278" font-size="10" fill="#6b6b6b" text-anchor="middle" font-style="italic">Wall B view</text>
+        <rect x="1040" y="60" width="147.5" height="490" fill="url(#oakA)" stroke="#8a6d3f"/>
+        <text x="1113.75" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">WB354912L</text>
+        <!-- 1 knob bottom-left corner (single door, hinged from corner side) -->
+        <circle cx="1052" cy="535" r="6" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- BBC51-54R navy base: spans below cols 3+4, visible 49½" -->
+      <!-- ========= COUNTERTOP (Taj Lusso quartz, just above bases on right side) ========= -->
+      <rect x="680" y="670" width="507.5" height="8" fill="#e8e4dc" stroke="#bcb6a8"/>
+
+      <!-- ========= BBC51-54R navy base (49½" visible): x=680-1175, y=678-1030 ========= -->
       <g>
-        <rect x="668" y="490" width="495" height="170" fill="url(#navyA)" stroke="#0f1828"/>
-        <text x="915" y="480" font-size="11" fill="#6b6b6b" text-anchor="middle">BBC51-54R · 49½" visible</text>
-        <!-- 8" vertical pull on left side of door (top-left) -->
-        <rect x="675" y="510" width="6" height="80" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="680" y="678" width="495" height="352" fill="url(#navyA)" stroke="#0f1828"/>
+        <text x="927.5" y="668" font-size="11" fill="#6b6b6b" text-anchor="middle">BBC51-54R · 49½" visible</text>
+        <!-- 8" vertical pull, top-left of door -->
+        <rect x="687" y="700" width="6" height="80" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- 1¼" right-end filler -->
-      <rect x="1163" y="60" width="12" height="600" fill="#f3eee2" stroke="#cdc6b6" stroke-dasharray="3 2"/>
+      <!-- 1¼" oak end panel at far right (base level only) -->
+      <rect x="1175" y="678" width="12.5" height="352" fill="url(#oakA)" stroke="#8a6d3f"/>
     </svg>
   </div>
 
-  <h3>Wall B — Sink + Range · 176¼" wide</h3>
+  <h3>Wall B — Sink + Range · 178¼" wide</h3>
   <div class="elevation">
-    <svg viewBox="0 0 1762 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wall B elevation">
+    <svg viewBox="0 0 1782 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wall B elevation">
       <defs>
         <pattern id="oakB" patternUnits="userSpaceOnUse" width="14" height="14">
           <rect width="14" height="14" fill="#c8a472"/>
@@ -258,9 +268,9 @@
         </pattern>
       </defs>
 
-      <line x1="0" y1="660" x2="1762" y2="660" stroke="#cdc6b6"/>
+      <line x1="0" y1="660" x2="1782" y2="660" stroke="#cdc6b6"/>
       <text x="0" y="690" font-size="11" fill="#6b6b6b">0"</text>
-      <text x="1755" y="690" font-size="11" fill="#6b6b6b" text-anchor="end">176¼"</text>
+      <text x="1775" y="690" font-size="11" fill="#6b6b6b" text-anchor="end">178¼"</text>
 
       <!-- Vertical bands:
            y=60-300  uppers (49" tall = 240px)
@@ -274,74 +284,72 @@
       <rect x="0" y="60" width="120" height="240" fill="url(#oakB)" stroke="#8a6d3f"/>
       <text x="60" y="50" font-size="10" fill="#6b6b6b" text-anchor="middle">12" panel</text>
 
-      <!-- WB354912L visible 23¼" oak corner upper: x=120-352.5, y=60-300 -->
+      <!-- WB364912L visible 24" oak corner upper: x=120-360, y=60-300.
+           Knob at bottom-right corner to line up with 3DB12 drawers below. -->
       <g>
-        <rect x="120" y="60" width="232.5" height="240" fill="url(#oakB)" stroke="#8a6d3f"/>
-        <text x="236" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">WB354912L</text>
-        <circle cx="237" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="120" y="60" width="240" height="240" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <text x="240" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">WB364912L</text>
+        <circle cx="345" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- W3630 oak upper (36" × 30"): x=360-720, y=60-210 -->
+      <!-- W3630 oak upper (36" × 30"): x=367.5-727.5, y=60-210 -->
       <g>
-        <rect x="360" y="60" width="360" height="150" fill="url(#oakB)" stroke="#8a6d3f"/>
-        <line x1="540" y1="60" x2="540" y2="210" stroke="#8a6d3f"/>
-        <text x="540" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W3630</text>
-        <circle cx="530" cy="195" r="6" fill="#b8945a" stroke="#8a6d3f"/>
-        <circle cx="550" cy="195" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="367.5" y="60" width="360" height="150" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <line x1="547.5" y1="60" x2="547.5" y2="210" stroke="#8a6d3f"/>
+        <text x="547.5" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W3630</text>
+        <circle cx="537.5" cy="195" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="557.5" cy="195" r="6" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- WOS3612 small open shelf below W3630 (dark recessed look): x=360-720, y=215-300 -->
+      <!-- WOS3612 small open shelf below W3630 (dark recessed look): x=367.5-727.5, y=215-300 -->
       <g>
-        <rect x="360" y="215" width="360" height="85" fill="#3a2b1d" stroke="#1f1610"/>
-        <text x="540" y="263" font-size="12" fill="#cdc6b6" text-anchor="middle" font-style="italic">WOS3612 · open shelf</text>
+        <rect x="367.5" y="215" width="360" height="85" fill="#3a2b1d" stroke="#1f1610"/>
+        <text x="547.5" y="263" font-size="12" fill="#cdc6b6" text-anchor="middle" font-style="italic">WOS3612 · open shelf</text>
       </g>
 
-      <!-- W31½×49 oak tall upper: x=727.5-1042.5, y=60-300 -->
+      <!-- W334912 oak tall upper (33" wide): x=735-1065, y=60-300 -->
       <g>
-        <rect x="727.5" y="60" width="315" height="240" fill="url(#oakB)" stroke="#8a6d3f"/>
-        <line x1="885" y1="60" x2="885" y2="300" stroke="#8a6d3f"/>
-        <text x="885" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W31½×49</text>
-        <circle cx="875" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
-        <circle cx="895" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="735" y="60" width="330" height="240" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <line x1="900" y1="60" x2="900" y2="300" stroke="#8a6d3f"/>
+        <text x="900" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W334912</text>
+        <circle cx="890" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="910" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- W304322 hood surround (30"): x=1050-1350, y=60-300, no doors/no hardware -->
+      <!-- W304322 hood surround (30"): x=1072.5-1372.5, y=60-300, no doors -->
       <g>
-        <rect x="1050" y="60" width="300" height="240" fill="url(#oakB)" stroke="#8a6d3f"/>
-        <text x="1200" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W304322 · hood surround</text>
-        <text x="1200" y="185" font-size="11" fill="#6b6b6b" text-anchor="middle" font-style="italic">no doors</text>
+        <rect x="1072.5" y="60" width="300" height="240" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <text x="1222.5" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W304322 · hood surround</text>
+        <text x="1222.5" y="185" font-size="11" fill="#6b6b6b" text-anchor="middle" font-style="italic">no doors</text>
       </g>
 
-      <!-- W14¼×49 oak narrow upper (single door): x=1357.5-1500, y=60-300 -->
+      <!-- W154912R oak narrow upper (15", single door): x=1380-1530, y=60-300 -->
       <g>
-        <rect x="1357.5" y="60" width="142.5" height="240" fill="url(#oakB)" stroke="#8a6d3f"/>
-        <text x="1429" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W14¼×49</text>
-        <circle cx="1370" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="1380" y="60" width="150" height="240" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <text x="1455" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W154912R</text>
+        <circle cx="1393" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- W242224 tall navy upper at far right (~49" tall): x=1507.5-1747.5, y=60-300 -->
+      <!-- W242224 tall navy upper at far right (~49" tall): x=1537.5-1777.5, y=60-300 -->
       <g>
-        <rect x="1507.5" y="60" width="240" height="240" fill="url(#navyB)" stroke="#0f1828"/>
-        <line x1="1627.5" y1="60" x2="1627.5" y2="300" stroke="#0f1828"/>
-        <text x="1627.5" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W242224</text>
-        <circle cx="1617.5" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
-        <circle cx="1637.5" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="1537.5" y="60" width="240" height="240" fill="url(#navyB)" stroke="#0f1828"/>
+        <line x1="1657.5" y1="60" x2="1657.5" y2="300" stroke="#0f1828"/>
+        <text x="1657.5" y="50" font-size="11" fill="#6b6b6b" text-anchor="middle">W242224</text>
+        <circle cx="1647.5" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+        <circle cx="1667.5" cy="285" r="6" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
       <!-- ========= COUNTERTOP (Taj Lusso quartz, just above bases) ========= -->
-      <rect x="0" y="380" width="1762" height="8" fill="#e8e4dc" stroke="#bcb6a8"/>
+      <rect x="0" y="380" width="1782" height="8" fill="#e8e4dc" stroke="#bcb6a8"/>
 
       <!-- ========= BASES (left to right, y=388-660) ========= -->
 
-      <!-- BBC51-54R visible 24¾": x=0-247.5, y=388-660. Pull shown on Wall A view. -->
+      <!-- BBC51-54R visible 27": x=0-270. Pull shown on Wall A view. -->
       <g>
-        <rect x="0" y="388" width="247.5" height="272" fill="url(#navyB)" stroke="#0f1828"/>
-        <text x="123" y="378" font-size="11" fill="#6b6b6b" text-anchor="middle">BBC51-54R · 24¾"</text>
-        <text x="123" y="530" font-size="10" fill="#cdc6b6" text-anchor="middle" font-style="italic">pull on Wall A view</text>
+        <rect x="0" y="388" width="270" height="272" fill="url(#navyB)" stroke="#0f1828"/>
+        <text x="135" y="378" font-size="11" fill="#6b6b6b" text-anchor="middle">BBC51-54R · 27"</text>
+        <text x="135" y="530" font-size="10" fill="#cdc6b6" text-anchor="middle" font-style="italic">pull on Wall A view</text>
       </g>
-
-      <!-- 2¼" filler between BBC and 3DB12: x=247.5-270 -->
-      <rect x="247.5" y="388" width="22.5" height="272" fill="url(#navyB)" stroke="#0f1828" opacity="0.5"/>
 
       <!-- 3DB12 narrow drawers (left of sink): x=270-390 -->
       <g>
@@ -389,31 +397,31 @@
         <rect x="1357" y="411" width="6" height="80" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- OVD2484 wall oven cabinet (navy, below W242224): x=1507.5-1747.5, y=300-660.
+      <!-- OVD2484 wall oven cabinet (navy, below W242224): x=1537.5-1777.5, y=300-660.
            Steam oven + microwave (dark glass-front appliances) above two navy drawers. -->
       <g>
-        <rect x="1507.5" y="300" width="240" height="360" fill="url(#navyB)" stroke="#0f1828"/>
-        <text x="1627.5" y="320" font-size="11" fill="#6b6b6b" text-anchor="middle">OVD2484</text>
+        <rect x="1537.5" y="300" width="240" height="360" fill="url(#navyB)" stroke="#0f1828"/>
+        <text x="1657.5" y="320" font-size="11" fill="#6b6b6b" text-anchor="middle">OVD2484</text>
         <!-- Steam oven appliance (dark glass front in oak frame) -->
-        <rect x="1537.5" y="335" width="180" height="80" fill="url(#oakB)" stroke="#8a6d3f"/>
-        <rect x="1545" y="343" width="165" height="64" fill="#1a1a1a" stroke="#000"/>
-        <rect x="1610" y="350" width="40" height="3" rx="1.5" fill="#b8945a" stroke="#8a6d3f"/>
-        <text x="1627.5" y="383" font-size="9" fill="#666" text-anchor="middle" font-style="italic">steam oven</text>
+        <rect x="1567.5" y="335" width="180" height="80" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <rect x="1575" y="343" width="165" height="64" fill="#1a1a1a" stroke="#000"/>
+        <rect x="1640" y="350" width="40" height="3" rx="1.5" fill="#b8945a" stroke="#8a6d3f"/>
+        <text x="1657.5" y="383" font-size="9" fill="#666" text-anchor="middle" font-style="italic">steam oven</text>
         <!-- Microwave appliance (dark glass front in oak frame) -->
-        <rect x="1537.5" y="425" width="180" height="70" fill="url(#oakB)" stroke="#8a6d3f"/>
-        <rect x="1545" y="432" width="165" height="56" fill="#1a1a1a" stroke="#000"/>
-        <rect x="1610" y="438" width="40" height="3" rx="1.5" fill="#b8945a" stroke="#8a6d3f"/>
-        <text x="1627.5" y="465" font-size="9" fill="#666" text-anchor="middle" font-style="italic">microwave</text>
+        <rect x="1567.5" y="425" width="180" height="70" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <rect x="1575" y="432" width="165" height="56" fill="#1a1a1a" stroke="#000"/>
+        <rect x="1640" y="438" width="40" height="3" rx="1.5" fill="#b8945a" stroke="#8a6d3f"/>
+        <text x="1657.5" y="465" font-size="9" fill="#666" text-anchor="middle" font-style="italic">microwave</text>
         <!-- Two navy drawers at bottom -->
-        <line x1="1507.5" y1="510" x2="1747.5" y2="510" stroke="#0f1828"/>
-        <line x1="1507.5" y1="585" x2="1747.5" y2="585" stroke="#0f1828"/>
+        <line x1="1537.5" y1="510" x2="1777.5" y2="510" stroke="#0f1828"/>
+        <line x1="1537.5" y1="585" x2="1777.5" y2="585" stroke="#0f1828"/>
         <!-- 8" horizontal pull on each drawer (centered) -->
-        <rect x="1587.5" y="544" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
-        <rect x="1587.5" y="619" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="1617.5" y="544" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
+        <rect x="1617.5" y="619" width="80" height="6" rx="2" fill="#b8945a" stroke="#8a6d3f"/>
       </g>
 
-      <!-- 1½" right-end filler -->
-      <rect x="1747.5" y="60" width="14.5" height="240" fill="#f3eee2" stroke="#cdc6b6" stroke-dasharray="3 2"/>
+      <!-- right-end filler -->
+      <rect x="1777.5" y="60" width="4.5" height="240" fill="#f3eee2" stroke="#cdc6b6" stroke-dasharray="3 2"/>
     </svg>
   </div>
 
@@ -520,11 +528,11 @@
     </tbody>
   </table>
 
-  <h3>Wall B — Sink + Range (176¼" wide)</h3>
+  <h3>Wall B — Sink + Range (178¼" wide)</h3>
   <table>
     <thead><tr><th>Cabinet</th><th>Hardware</th><th>Notes</th></tr></thead>
     <tbody>
-      <tr><td>BBC51-54R (base blind corner, visible 24¾")</td><td>pull shown on Wall A view</td><td>Wall A/B corner</td></tr>
+      <tr><td>BBC51-54R (base blind corner, visible 27")</td><td>pull shown on Wall A view</td><td>Wall A/B corner</td></tr>
       <tr><td>3DB12 narrow drawers (left of sink)</td><td>3 × 3" Trail pull, horizontal</td><td>Centered on each drawer</td></tr>
       <tr><td>SB30 sink base doors</td><td>2 × 8" Trail pull, vertical (top)</td><td>Inside edge of each door</td></tr>
       <tr><td>DISHW24</td><td>none</td><td>appliance</td></tr>
@@ -532,12 +540,12 @@
       <tr><td>RANGE3.30</td><td>none</td><td>appliance</td></tr>
       <tr><td>B15R (single door, right of range)</td><td>1 × 8" Trail pull, vertical (top-left)</td><td>—</td></tr>
       <tr><td>OVD2484 wall oven cabinet (navy)</td><td>2 × 8" Trail pull, horizontal</td><td>Two drawers below steam oven + microwave</td></tr>
-      <tr><td>WB354912L (corner upper, oak)</td><td>1 × Paxton knob</td><td>Visible portion (23¼" wide)</td></tr>
+      <tr><td>WB364912L (corner upper, oak)</td><td>1 × Paxton knob</td><td>Visible 24" wide; knob at bottom-right (lined up over 3DB12)</td></tr>
       <tr><td>W3630 (oak upper)</td><td>2 × Paxton knob</td><td>Bottom-inside corner</td></tr>
       <tr><td>WOS3612</td><td>none</td><td>open shelf, below W3630</td></tr>
-      <tr><td>W31½×49 (oak tall upper)</td><td>2 × Paxton knob</td><td>Bottom-inside corner</td></tr>
+      <tr><td>W334912 (oak tall upper, 33")</td><td>2 × Paxton knob</td><td>Bottom-inside corner</td></tr>
       <tr><td>W304322 (hood surround)</td><td>none</td><td>no doors</td></tr>
-      <tr><td>W14¼×49 (oak narrow upper)</td><td>1 × Paxton knob</td><td>Bottom-LEFT corner (single door)</td></tr>
+      <tr><td>W154912R (oak narrow upper, 15", single door)</td><td>1 × Paxton knob</td><td>Bottom-LEFT corner</td></tr>
       <tr><td>W242224 (tall navy upper above OVD2484)</td><td>2 × Paxton knob</td><td>Bottom-inside corner of each door</td></tr>
     </tbody>
   </table>
