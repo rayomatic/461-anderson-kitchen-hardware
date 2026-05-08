@@ -6,21 +6,72 @@ This folder contains the locked-in hardware plan for the 461 Anderson kitchen re
 
 ## Final Order — Locked
 
-**All hardware: Emtek in Satin Brass (US4).** Mixing two collections (Trail bar pulls + Paxton round knobs) — finish is identical so they read as one family.
+**All hardware: Emtek Timeless Classics Collection in Satin Brass (US4).** Westridge handle pulls + Paxton round knobs — same collection, designed to coordinate.
 
 | Item | SKU | Qty | Each | Total |
 |---|---|---|---|---|
 | Paxton Knob 1¼" round | 86642-US4 | 18 | $13.21 | $237.78 |
-| Trail Pull 3" CtC | 86161-US4 | 3 | $17.61 | $52.83 |
-| Trail Pull 5" CtC | 86272-US4 | 2 | $24.66 | $49.32 |
-| Trail Pull 8" CtC | 86165-US4 | 11 | $36.11 | $397.21 |
-| Trail Pull 12" CtC | 86166-US4 | 2 | $59.00 | $118.00 |
-| | | | **Subtotal** | **$855.14** |
-| | | | WKD coupon (10%) | −$85.51 |
+| Westridge Pull 3½" CtC | 86633-US4 | 3 | $17.61 | $52.83 |
+| Westridge Pull 5" CtC | 86635-US4 | 2 | $22.02 | $44.04 |
+| Westridge Pull 8" CtC | 86637-US4 | 11 | $28.18 | $309.98 |
+| Westridge Pull 12" CtC | 86639-US4 | 2 | $50.20 | $100.40 |
+| | | | **Subtotal** | **$745.03** |
+| | | | WKD coupon (10%, applied at checkout) | −$74.50 |
 | | | | Ground shipping | Free |
-| | | | **Grand Total** | **$769.63** |
-| | | | + CA sales tax (~8.6%) | ~$66 |
-| | | | **All-in estimate** | **~$836** |
+| | | | **Grand Total** | **$670.53** |
+| | | | + CA sales tax (~8.6%) | ~$58 |
+| | | | **All-in estimate** | **~$728** |
+
+**Why Westridge instead of Trail:** Westridge is in Emtek's Timeless Classics Collection, the same collection as the Paxton round knobs — they're designed by Emtek to coordinate. Trail is in the Modern Brass Collection. Westridge has a slightly softer transitional handle profile that better suits the warm material palette (Shinnoki Oak, Taj Lusso, Golden Hour). Saves ~$108 vs Trail.
+
+---
+
+## Laundry Room Hardware (Sage Leaf — PM779)
+
+**Top Knobs Hopewell Appliance Pull, Brushed Satin Nickel — mid-tier from TopKnobSupply.com.**
+
+| Item | SKU | Source | Qty | Each | Total |
+|---|---|---|---|---|---|
+| Hopewell Appliance Pull 12" CtC, Brushed Satin Nickel | M1331-12 BSN | TopKnobSupply.com | 4 | ~$28–32 | ~$120 |
+
+**Note:** Hopewell Bar Pull maxes at 8-13/16" CC; for 12" the Appliance Pull is needed. Same profile (cylindrical bar with rectangular legs), just longer — visually identical family. Steel construction with PVD finish. Lifetime mechanical warranty.
+
+**Per-cabinet assignment:**
+- **22"W × 49"H cabinet** (left wall, W/D enclosure): 1 × 12" vertical pull, mounted on LEFT edge (door hinged on right)
+- **3 × 16"W × 68"H cabinets** (right wall, opposing):
+  - Left cabinet: pull on RIGHT edge (opens right-to-left, hinged on left)
+  - Middle cabinet: pull on RIGHT edge (paired with right, French-door style)
+  - Right cabinet: pull on LEFT edge (paired with middle, French-door style)
+
+All pulls mounted vertically with center at ~48" off floor (natural reach for tall doors).
+
+---
+
+## Office Cabinet Hardware (Camel SM)
+
+**Top Knobs Hopewell Bar Pull, Oil Rubbed Bronze — mid-tier from TopKnobSupply.com.**
+
+| Item | SKU | Source | Qty | Each | Total |
+|---|---|---|---|---|---|
+| Hopewell Bar Pull 8-13/16" CtC, Oil Rubbed Bronze | M432-ORB | TopKnobSupply.com | 4 | $16.52 | $66.08 |
+
+**Why ORB:** The whole house already uses Emtek Orb door hardware in Oil Rubbed Bronze — the cabinet hardware in this room continues that language. Camel SM (warm yellow-tan) + ORB (warm dark bronze) creates a cohesive warm-on-warm "library/study" aesthetic. More integrated with the rest of the house than matte black would be.
+
+**Per-cabinet assignment (single 40"W × 90"H cabinet):**
+- **Top section** — open shelving (no hardware)
+- **Middle section** — 2 doors paired (printer storage): 2 × 8" vertical pulls mounted at INSIDE edges (where doors meet, French-door style)
+- **Bottom section** — 2 file drawers (independent): 2 × 8" horizontal pulls centered on each drawer face
+
+---
+
+## Combined Order Summary (All Hardware Across House)
+
+| Category | Source | Total |
+|---|---|---|
+| Kitchen + Sitting Cabinet (Emtek Westridge + Paxton, Satin Brass) | Cape Cod Brass | $670.53 (after WKD coupon) + tax |
+| Laundry (Top Knobs Hopewell, Brushed Satin Nickel) | TopKnobSupply.com | ~$120 + tax |
+| Office (Top Knobs Hopewell, Oil Rubbed Bronze) | TopKnobSupply.com | ~$66 + tax |
+| **Combined estimate** | | **~$920 all-in** |
 
 **Where to buy:** Cape Cod Brass (ccbrass.com) — authorized Emtek dealer, free shipping over $75, coupon code **WKD** for 10% off $500+. Cart is pre-filled and ready for checkout: https://ccbrass.com/?page=cart&action=list
 

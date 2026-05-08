@@ -15,10 +15,13 @@ and as the source-of-truth before placing the order.
 
 ## The plan in one line
 
-36 pieces, all Emtek Satin Brass (US4) — **Paxton** round knobs (model
-86642-US4) for upper doors and the sitting cabinet, **Trail** bar pulls
-(86161 / 86272 / 86165 / 86166-US4) for everything else. Pre-tax total
-$769.63 from Cape Cod Brass with the `WKD` coupon.
+Kitchen + sitting cabinet: 36 pieces, all Emtek **Timeless Classics
+Collection** in Satin Brass (US4) — **Paxton** round knobs (86642-US4)
+for upper doors, **Westridge** handle pulls (86633 / 86635 / 86637 /
+86639-US4) for drawers and base-cabinet doors. Pre-tax total $670.53
+from Cape Cod Brass with the `WKD` coupon. Plus laundry (~$120, Top
+Knobs Hopewell BSN) and office (~$66, Top Knobs Hopewell ORB). Combined
+~$920 all-in.
 
 ## Local preview
 
