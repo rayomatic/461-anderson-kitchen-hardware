@@ -28,13 +28,24 @@ This folder contains the locked-in hardware plan for the 461 Anderson kitchen re
 
 ## Laundry Room Hardware (Sage Leaf — PM779)
 
-**Top Knobs Hopewell Appliance Pull, Brushed Satin Nickel — mid-tier from TopKnobSupply.com.**
+**Top Knobs Hopewell Bar Pull 15" CC, Brushed Satin Nickel — proportionally sized for the tall 68" doors.**
 
 | Item | SKU | Source | Qty | Each | Total |
 |---|---|---|---|---|---|
-| Hopewell Appliance Pull 12" CtC, Brushed Satin Nickel | M1331-12 BSN | TopKnobSupply.com | 4 | ~$28–32 | ~$120 |
+| Hopewell Bar Pull **15" CtC**, Brushed Satin Nickel | **M433A-BSN** | Knobs.co or TopKnobSupply.com | 4 | $20.48 | $81.92 |
 
-**Note:** Hopewell Bar Pull maxes at 8-13/16" CC; for 12" the Appliance Pull is needed. Same profile (cylindrical bar with rectangular legs), just longer — visually identical family. Steel construction with PVD finish. Lifetime mechanical warranty.
+**Why 15" instead of 8-13/16":** On 68" tall doors, 15" CC is ~22% of door height — proportional sweet spot per the 1/3 design rule. 8-13/16" looks small and afterthought-y at only 13% of door height. Cost difference is tiny ($16 total) so the upgrade is essentially free.
+
+**Per-cabinet assignment:**
+- **22"W × 49"H cabinet** (left wall, W/D enclosure): 1 × pull, mounted vertically on LEFT edge (door hinged on right)
+- **3 × 16"W × 68"H cabinets** (right wall, opposing):
+  - Left cabinet: pull on RIGHT edge (opens right-to-left, hinged on left)
+  - Middle cabinet: pull on RIGHT edge (paired with right, French-door style)
+  - Right cabinet: pull on LEFT edge (paired with middle, French-door style)
+
+All pulls mounted vertically with center at ~48" off floor (natural reach for tall doors).
+
+**Note on size:** 8-13/16" is on the smaller end of "normal" for a 68" tall door, but for a utility laundry room, functional > proportional. The design 1/3 rule would suggest 22" pulls (gigantic, expensive, overkill for a utility space). 8-13/16" is functional, looks clean, and matches the office hardware exactly — a coherent single-pull-style story for the whole house.
 
 **Per-cabinet assignment:**
 - **22"W × 49"H cabinet** (left wall, W/D enclosure): 1 × 12" vertical pull, mounted on LEFT edge (door hinged on right)
@@ -69,9 +80,11 @@ All pulls mounted vertically with center at ~48" off floor (natural reach for ta
 | Category | Source | Total |
 |---|---|---|
 | Kitchen + Sitting Cabinet (Emtek Westridge + Paxton, Satin Brass) | Cape Cod Brass | $670.53 (after WKD coupon) + tax |
-| Laundry (Top Knobs Hopewell, Brushed Satin Nickel) | TopKnobSupply.com | ~$120 + tax |
-| Office (Top Knobs Hopewell, Oil Rubbed Bronze) | TopKnobSupply.com | ~$66 + tax |
-| **Combined estimate** | | **~$920 all-in** |
+| Laundry (Top Knobs Hopewell Bar Pull 15", Brushed Satin Nickel M433A-BSN) × 4 | Knobs.co or TopKnobSupply | $81.92 + tax (free shipping over $99) |
+| Office (Top Knobs Hopewell Bar Pull 8-13/16", Oil Rubbed Bronze M432-ORB) × 4 | TopKnobSupply.com | $66.08 + tax (free shipping over $75) |
+| **Combined estimate** | | **~$888 all-in** |
+
+**Single Top Knobs order tip:** Combine laundry + office into one order ($148 subtotal) — clears free shipping at either Knobs.co ($99) or TopKnobSupply ($75). Same Hopewell Bar Pull family across both rooms; just different sizes (15" / 8-13/16") and finishes (BSN / ORB).
 
 **Where to buy:** Cape Cod Brass (ccbrass.com) — authorized Emtek dealer, free shipping over $75, coupon code **WKD** for 10% off $500+. Cart is pre-filled and ready for checkout: https://ccbrass.com/?page=cart&action=list
 
