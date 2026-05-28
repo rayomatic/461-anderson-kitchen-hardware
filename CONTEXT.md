@@ -13,7 +13,7 @@ This folder contains the locked-in hardware plan for the 461 Anderson kitchen re
 | Paxton Knob 1¼" round | 86642-US4 | 18 | $13.21 | $237.78 |
 | Westridge Pull 3½" CtC | 86633-US4 | 3 | $17.61 | $52.83 |
 | Westridge Pull 5" CtC | 86635-US4 | 2 | $22.02 | $44.04 |
-| Westridge Pull 8" CtC | 86637-US4 | 11 | $28.18 | $309.98 |
+| Westridge Pull 8" CtC | 86637-US4 | 12 | $28.18 | $338.16 |
 | Westridge Pull 12" CtC | 86639-US4 | 2 | $50.20 | $100.40 |
 | | | | **Subtotal** | **$745.03** |
 | | | | WKD coupon (10%, applied at checkout) | −$74.50 |
@@ -90,7 +90,7 @@ All pulls mounted vertically with center at ~48" off floor (natural reach for ta
 
 ---
 
-## Hardware Assignment Per Cabinet (36 pieces total)
+## Hardware Assignment Per Cabinet (37 pieces total)
 
 ### Wall A — Fridge + Pantry (119" wide)
 | Cabinet | Hardware | Notes |
@@ -115,7 +115,7 @@ All pulls mounted vertically with center at ~48" off floor (natural reach for ta
 | W14¼×49 / W144912R (oak narrow upper) | 1 × Paxton knob | Bottom-LEFT corner (single door) |
 | DO2410625 top doors (navy upper) | 2 × Paxton knob | Bottom-inside corner |
 | DO2410625 oven housing | none — appliance | — |
-| DO2410625 bottom drawer | 1 × 8" Trail pull, horizontal | Top of drawer face |
+| DO2410625 bottom drawers (×2, option 2) | 2 × 8" Trail pull, horizontal | Centered on each drawer face |
 | BBC51-54R (visible 24¾") | 1 × 8" Trail pull, vertical (top-left) | — |
 | 3DB12 narrow drawers | 3 × 3" Trail pull, horizontal | Centered on each drawer |
 | SB30 sink base doors | 2 × 8" Trail pull, vertical (top) | Inside edge of each door |
@@ -180,7 +180,7 @@ Treats the sitting cabinet as a **furniture piece** (like an armoire) — 4 knob
 - **Sink:** Blanco Quatrus R15 28" undermount stainless
 - **Faucet:** Grohe Minta in Brushed Cool Sunrise
 - **Range:** RANGE3.30 (30" range)
-- **Wall oven:** Single oven w/ drawer below (DO2410625 cabinet)
+- **Wall oven:** Single oven w/ two drawers below (DO2410625 cabinet, option 2)
 - **Door hardware (whole home):** Emtek Orb knob, Oil Rubbed Bronze (Note: this is intentionally different from cabinet hardware)
 - **Trim:** Swiss Coffee (OC-45)
 

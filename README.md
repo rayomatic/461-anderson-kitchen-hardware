@@ -15,7 +15,7 @@ and as the source-of-truth before placing the order.
 
 ## The plan in one line
 
-Kitchen + sitting cabinet: 36 pieces, all Emtek **Timeless Classics
+Kitchen + sitting cabinet: 37 pieces, all Emtek **Timeless Classics
 Collection** in Satin Brass (US4) — **Paxton** round knobs (86642-US4)
 for upper doors, **Westridge** handle pulls (86633 / 86635 / 86637 /
 86639-US4) for drawers and base-cabinet doors. Pre-tax total $670.53
