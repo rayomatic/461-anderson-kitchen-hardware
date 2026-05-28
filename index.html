@@ -395,21 +395,22 @@
       </g>
 
       <!-- DO2410625 wall oven cabinet (navy, below W242224): x=1537.5-1777.5, y=300-660.
-           Steam oven + microwave above TWO navy drawers at the bottom (option 2).
-           Each drawer takes its own 8" horizontal Warwick pull. -->
+           Steam oven + microwave stacked flush in a full-width oak niche — no navy between
+           them or at the sides — above TWO navy drawers (option 2). Each drawer takes its
+           own 8" horizontal Warwick pull. -->
       <g>
         <rect x="1537.5" y="300" width="240" height="360" fill="url(#navyB)" stroke="#0f1828"/>
         <text x="1657.5" y="320" font-size="11" fill="#6b6b6b" text-anchor="middle">DO2410625</text>
-        <!-- Steam oven appliance (dark glass front in oak frame) -->
-        <rect x="1567.5" y="335" width="180" height="100" fill="url(#oakB)" stroke="#8a6d3f"/>
-        <rect x="1575" y="343" width="165" height="84" fill="#1a1a1a" stroke="#000"/>
-        <rect x="1640" y="350" width="40" height="3" rx="1.5" fill="#b8945a" stroke="#8a6d3f"/>
-        <text x="1657.5" y="395" font-size="9" fill="#666" text-anchor="middle" font-style="italic">steam oven</text>
-        <!-- Microwave appliance (dark glass front in oak frame) -->
-        <rect x="1567.5" y="445" width="180" height="90" fill="url(#oakB)" stroke="#8a6d3f"/>
-        <rect x="1575" y="453" width="165" height="74" fill="#1a1a1a" stroke="#000"/>
-        <rect x="1640" y="460" width="40" height="3" rx="1.5" fill="#b8945a" stroke="#8a6d3f"/>
-        <text x="1657.5" y="500" font-size="9" fill="#666" text-anchor="middle" font-style="italic">microwave</text>
+        <!-- Full-width oak appliance niche, flush to both cabinet edges -->
+        <rect x="1537.5" y="335" width="240" height="200" fill="url(#oakB)" stroke="#8a6d3f"/>
+        <!-- Steam oven (dark glass front), flush -->
+        <rect x="1545" y="343" width="225" height="88" fill="#1a1a1a" stroke="#000"/>
+        <rect x="1632" y="350" width="50" height="3" rx="1.5" fill="#b8945a" stroke="#8a6d3f"/>
+        <text x="1657.5" y="392" font-size="9" fill="#cfcfcf" text-anchor="middle" font-style="italic">steam oven</text>
+        <!-- Microwave (dark glass front), directly below — no navy gap -->
+        <rect x="1545" y="439" width="225" height="88" fill="#1a1a1a" stroke="#000"/>
+        <rect x="1632" y="446" width="50" height="3" rx="1.5" fill="#b8945a" stroke="#8a6d3f"/>
+        <text x="1657.5" y="487" font-size="9" fill="#cfcfcf" text-anchor="middle" font-style="italic">microwave</text>
         <!-- Two navy drawers at bottom (option 2): top y=545-602, bottom y=602-660 -->
         <line x1="1537.5" y1="545" x2="1777.5" y2="545" stroke="#0f1828"/>
         <line x1="1537.5" y1="602" x2="1777.5" y2="602" stroke="#0f1828"/>
@@ -504,6 +505,77 @@
       <!-- bottom doors: knobs at top-inside corner -->
       <circle cx="170" cy="315" r="6" fill="#b8945a" stroke="#8a6d3f"/>
       <circle cx="190" cy="315" r="6" fill="#b8945a" stroke="#8a6d3f"/>
+    </svg>
+  </div>
+
+  <h3>Laundry Room · Sage Leaf (PM779)</h3>
+  <p style="font-size:14px;color:var(--muted);margin-bottom:8px;">Two opposing walls (schematic). <span style="color:#8f9396;font-weight:600;">Silver bars</span> = Top Knobs Hopewell 15" CtC bar pull, Brushed Satin Nickel (M433A-BSN), mounted vertically with center ~48" off floor. 4 pulls total.</p>
+  <div class="elevation">
+    <svg viewBox="0 0 640 545" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Laundry room elevation">
+      <defs>
+        <pattern id="sageL" patternUnits="userSpaceOnUse" width="14" height="14">
+          <rect width="14" height="14" fill="#97a585"/>
+          <path d="M0,7 Q3.5,5 7,7 T14,7" stroke="#6f7d62" stroke-width="0.7" fill="none" opacity="0.5"/>
+        </pattern>
+      </defs>
+      <line x1="0" y1="510" x2="640" y2="510" stroke="#cdc6b6"/>
+
+      <!-- LEFT WALL: 22"W x 49"H cabinet (W/D enclosure upper) -->
+      <text x="106" y="22" font-size="11" fill="#6b6b6b" text-anchor="middle">Left wall · 22"W × 49"H</text>
+      <!-- washer/dryer below (reference only) -->
+      <rect x="40" y="330" width="132" height="180" fill="#ededed" stroke="#bbb" stroke-dasharray="4 3"/>
+      <text x="106" y="425" font-size="10" fill="#999" text-anchor="middle" font-style="italic">W / D</text>
+      <!-- 49" tall cabinet (single door, hinged right) -->
+      <rect x="40" y="36" width="132" height="294" fill="url(#sageL)" stroke="#5f6b52"/>
+      <!-- 15" vertical pull on LEFT edge -->
+      <rect x="50" y="138" width="6" height="90" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
+
+      <!-- RIGHT WALL: 3 x 16"W x 68"H tall cabinets -->
+      <text x="444" y="22" font-size="11" fill="#6b6b6b" text-anchor="middle">Right wall · 3 × 16"W × 68"H</text>
+      <rect x="300" y="102" width="96" height="408" fill="url(#sageL)" stroke="#5f6b52"/>
+      <rect x="396" y="102" width="96" height="408" fill="url(#sageL)" stroke="#5f6b52"/>
+      <rect x="492" y="102" width="96" height="408" fill="url(#sageL)" stroke="#5f6b52"/>
+      <!-- pulls: left cab RIGHT edge, middle cab RIGHT edge, right cab LEFT edge (French-door pair) -->
+      <rect x="384" y="261" width="6" height="90" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
+      <rect x="480" y="261" width="6" height="90" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
+      <rect x="498" y="261" width="6" height="90" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
+    </svg>
+  </div>
+
+  <h3>Office Cabinet · Camel SM</h3>
+  <p style="font-size:14px;color:var(--muted);margin-bottom:8px;">Single 40"W × 90"H cabinet. <span style="color:#463a2c;font-weight:600;">Bronze bars</span> = Top Knobs Hopewell pull, Oil Rubbed Bronze (M760-ORB). Top = open shelves (no hardware); middle = 2 paired doors with vertical pulls at inside edges (French-door); bottom = 2 file drawers with horizontal pulls centered. 4 pulls total.</p>
+  <div class="elevation">
+    <svg viewBox="0 0 360 510" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Office cabinet elevation">
+      <defs>
+        <pattern id="camelO" patternUnits="userSpaceOnUse" width="14" height="14">
+          <rect width="14" height="14" fill="#d8b878"/>
+          <path d="M0,7 Q3.5,5 7,7 T14,7" stroke="#b8945a" stroke-width="0.7" fill="none" opacity="0.5"/>
+        </pattern>
+      </defs>
+      <line x1="0" y1="480" x2="360" y2="480" stroke="#cdc6b6"/>
+      <text x="180" y="20" font-size="11" fill="#6b6b6b" text-anchor="middle">Office · Camel SM · 40"W × 90"H</text>
+
+      <!-- cabinet body x 80-280 (40"), y 30-480 (90") -->
+      <rect x="80" y="30" width="200" height="450" fill="url(#camelO)" stroke="#9c7b46"/>
+      <!-- section dividers: top open / middle doors / bottom drawers -->
+      <line x1="80" y1="180" x2="280" y2="180" stroke="#9c7b46" stroke-width="2"/>
+      <line x1="80" y1="330" x2="280" y2="330" stroke="#9c7b46" stroke-width="2"/>
+
+      <!-- TOP: open shelving (no hardware) -->
+      <line x1="80" y1="105" x2="280" y2="105" stroke="#9c7b46" stroke-width="0.8" opacity="0.7"/>
+      <text x="180" y="148" font-size="10" fill="#7a5f33" text-anchor="middle" font-style="italic">open shelves</text>
+
+      <!-- MIDDLE: 2 paired doors (printer storage) -->
+      <line x1="180" y1="180" x2="180" y2="330" stroke="#9c7b46"/>
+      <!-- ORB vertical pulls at inside edges -->
+      <rect x="168" y="233" width="6" height="44" rx="2" fill="#463a2c" stroke="#241c14"/>
+      <rect x="186" y="233" width="6" height="44" rx="2" fill="#463a2c" stroke="#241c14"/>
+
+      <!-- BOTTOM: 2 file drawers -->
+      <line x1="80" y1="405" x2="280" y2="405" stroke="#9c7b46"/>
+      <!-- ORB horizontal pulls centered on each drawer -->
+      <rect x="158" y="364" width="44" height="6" rx="2" fill="#463a2c" stroke="#241c14"/>
+      <rect x="158" y="439" width="44" height="6" rx="2" fill="#463a2c" stroke="#241c14"/>
     </svg>
   </div>
 </section>
