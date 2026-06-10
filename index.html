@@ -540,42 +540,55 @@
       <text x="-95" y="300" font-size="13" fill="#6b6b6b" text-anchor="middle" font-style="italic" transform="rotate(-90 -95 300)">Wall A — fridge + pantry</text>
 
       <!-- ===================== ISLAND — solid Taj Lusso top (73½" × 42") ===================== -->
-      <!-- aisle = 36" (min. recommended); island slid north so seating edge is at 103" -->
-      <rect x="338.5" y="305" width="367.5" height="210" fill="url(#tajLusso)" stroke="#7a6a45" stroke-width="2"/>
+      <!-- aisle = 42"; island 42" deep; 42" is the finished countertop slab (overhang on seating side) -->
+      <rect x="338.5" y="335" width="367.5" height="210" fill="url(#tajLusso)" stroke="#7a6a45" stroke-width="2"/>
       <!-- soft gold-grey veining -->
       <g fill="none" stroke-linecap="round" opacity="0.55">
-        <path d="M360,332 Q480,360 560,342 T700,384" stroke="#cdbf9c" stroke-width="2.5"/>
-        <path d="M345,432 Q470,402 600,432 T700,422" stroke="#bfae86" stroke-width="2"/>
-        <path d="M380,486 Q500,456 660,492" stroke="#d3c8ab" stroke-width="1.8"/>
-        <path d="M430,335 Q500,410 468,500" stroke="#c8bb98" stroke-width="1.5"/>
+        <path d="M360,362 Q480,390 560,372 T700,414" stroke="#cdbf9c" stroke-width="2.5"/>
+        <path d="M345,462 Q470,432 600,462 T700,452" stroke="#bfae86" stroke-width="2"/>
+        <path d="M380,516 Q500,486 660,522" stroke="#d3c8ab" stroke-width="1.8"/>
+        <path d="M430,365 Q500,440 468,530" stroke="#c8bb98" stroke-width="1.5"/>
       </g>
       <!-- cabinet units below (dashed plan indicators, work side): B18-PULL 18", 3DB27 27", 1DB27 27" -->
       <g stroke="#7a6a45" stroke-width="1" opacity="0.5" stroke-dasharray="4 3">
-        <line x1="428.5" y1="305" x2="428.5" y2="425"/>
-        <line x1="563.5" y1="305" x2="563.5" y2="425"/>
+        <line x1="428.5" y1="335" x2="428.5" y2="455"/>
+        <line x1="563.5" y1="335" x2="563.5" y2="455"/>
       </g>
       <g font-size="11" fill="#5a4a2e" text-anchor="middle" font-family="ui-sans-serif,Arial">
-        <text x="383" y="370" transform="rotate(-90 383 370)">B18-PULL</text>
-        <text x="496" y="370">3DB27</text>
-        <text x="634" y="370">1DB27</text>
+        <text x="383" y="400" transform="rotate(-90 383 400)">B18-PULL</text>
+        <text x="496" y="400">3DB27</text>
+        <text x="634" y="400">1DB27</text>
       </g>
       <!-- seating overhang edge (dashed) -->
-      <line x1="338.5" y1="425" x2="706" y2="425" stroke="#8a6d3f" stroke-width="1" stroke-dasharray="6 4"/>
+      <line x1="338.5" y1="455" x2="706" y2="455" stroke="#8a6d3f" stroke-width="1" stroke-dasharray="6 4"/>
+
+      <!-- ===================== DISHWASHER DOOR SWING (Bosch 800) ===================== -->
+      <!-- DISHW24 opens into the aisle; open door projects ~24" toward the island -->
+      <g>
+        <rect x="345" y="125" width="120" height="122" fill="#cdd2d8" fill-opacity="0.4" stroke="#5a6b7a" stroke-width="1" stroke-dasharray="5 4"/>
+        <text x="405" y="188" font-size="10" fill="#41505c" text-anchor="middle">Bosch 800 DW</text>
+        <text x="405" y="202" font-size="10" fill="#41505c" text-anchor="middle">door open ~24″</text>
+        <!-- clearance left between open door and island counter edge -->
+        <g stroke="#5a6b7a" stroke-width="1" fill="#41505c">
+          <line x1="300" y1="247" x2="300" y2="335" marker-start="url(#dimArr)" marker-end="url(#dimArr)"/>
+          <text x="300" y="295" font-size="11" text-anchor="middle" stroke="none" transform="rotate(-90 300 295)">17½″ clear</text>
+        </g>
+      </g>
 
       <!-- ===================== 3 COUNTER STOOLS ===================== -->
       <!-- seats tucked under the south edge, curved backs protrude ≈6" -->
       <g>
         <!-- stool 1 -->
-        <rect x="346" y="430" width="107.5" height="83" rx="14" fill="#d8c4a0" stroke="#8a6d3f" stroke-width="1.5"/>
-        <path d="M349.75,513 Q399.75,577 449.75,513" fill="none" stroke="#8a6d3f" stroke-width="8" stroke-linecap="round"/>
+        <rect x="346" y="460" width="107.5" height="83" rx="14" fill="#d8c4a0" stroke="#8a6d3f" stroke-width="1.5"/>
+        <path d="M349.75,543 Q399.75,607 449.75,543" fill="none" stroke="#8a6d3f" stroke-width="8" stroke-linecap="round"/>
         <!-- stool 2 -->
-        <rect x="468.5" y="430" width="107.5" height="83" rx="14" fill="#d8c4a0" stroke="#8a6d3f" stroke-width="1.5"/>
-        <path d="M472.25,513 Q522.25,577 572.25,513" fill="none" stroke="#8a6d3f" stroke-width="8" stroke-linecap="round"/>
+        <rect x="468.5" y="460" width="107.5" height="83" rx="14" fill="#d8c4a0" stroke="#8a6d3f" stroke-width="1.5"/>
+        <path d="M472.25,543 Q522.25,607 572.25,543" fill="none" stroke="#8a6d3f" stroke-width="8" stroke-linecap="round"/>
         <!-- stool 3 -->
-        <rect x="591" y="430" width="107.5" height="83" rx="14" fill="#d8c4a0" stroke="#8a6d3f" stroke-width="1.5"/>
-        <path d="M594.75,513 Q644.75,577 694.75,513" fill="none" stroke="#8a6d3f" stroke-width="8" stroke-linecap="round"/>
+        <rect x="591" y="460" width="107.5" height="83" rx="14" fill="#d8c4a0" stroke="#8a6d3f" stroke-width="1.5"/>
+        <path d="M594.75,543 Q644.75,607 694.75,543" fill="none" stroke="#8a6d3f" stroke-width="8" stroke-linecap="round"/>
       </g>
-      <text x="522" y="565" font-size="11" fill="#6b6b6b" text-anchor="middle" font-style="italic">3 × Interior Define counter stool · 21½″ W · seat 25″ H</text>
+      <text x="522" y="595" font-size="11" fill="#6b6b6b" text-anchor="middle" font-style="italic">3 × Interior Define counter stool · 21½″ W · seat 25″ H</text>
 
       <!-- ===================== DIMENSIONS ===================== -->
       <g stroke="#8a6d3f" stroke-width="1.2" fill="#8a6d3f" font-family="ui-sans-serif,Arial">
@@ -591,30 +604,30 @@
         <line x1="-83" y1="595" x2="-8" y2="595" stroke-width="0.8"/>
         <text x="-83" y="300" font-size="13" text-anchor="middle" stroke="none" transform="rotate(-90 -83 300)">119″</text>
 
-        <!-- Work aisle 36" (top counter front -> island work edge) -->
-        <line x1="232" y1="125" x2="232" y2="305" marker-start="url(#dimArr)" marker-end="url(#dimArr)"/>
+        <!-- Work aisle 42" (top counter front -> island counter edge); clears open dishwasher door -->
+        <line x1="232" y1="125" x2="232" y2="335" marker-start="url(#dimArr)" marker-end="url(#dimArr)"/>
         <line x1="125" y1="125" x2="338.5" y2="125" stroke-width="0.6" opacity="0.6"/>
-        <line x1="125" y1="305" x2="338.5" y2="305" stroke-width="0.6" opacity="0.6"/>
-        <text x="232" y="208" font-size="14" text-anchor="middle" stroke="none" font-weight="600">work aisle</text>
-        <text x="232" y="228" font-size="14" text-anchor="middle" stroke="none" font-weight="600">36″ min.</text>
+        <line x1="125" y1="335" x2="338.5" y2="335" stroke-width="0.6" opacity="0.6"/>
+        <text x="232" y="225" font-size="14" text-anchor="middle" stroke="none" font-weight="600">work aisle</text>
+        <text x="232" y="245" font-size="14" text-anchor="middle" stroke="none" font-weight="600">42″</text>
 
         <!-- Island depth 42" -->
-        <line x1="755" y1="305" x2="755" y2="515" marker-start="url(#dimArr)" marker-end="url(#dimArr)"/>
-        <line x1="706" y1="305" x2="760" y2="305" stroke-width="0.8"/>
-        <line x1="706" y1="515" x2="760" y2="515" stroke-width="0.8"/>
-        <text x="755" y="410" font-size="14" text-anchor="middle" stroke="none" transform="rotate(-90 755 410)" font-weight="600">island depth 42″</text>
+        <line x1="755" y1="335" x2="755" y2="545" marker-start="url(#dimArr)" marker-end="url(#dimArr)"/>
+        <line x1="706" y1="335" x2="760" y2="335" stroke-width="0.8"/>
+        <line x1="706" y1="545" x2="760" y2="545" stroke-width="0.8"/>
+        <text x="755" y="440" font-size="14" text-anchor="middle" stroke="none" transform="rotate(-90 755 440)" font-weight="600">island depth 42″</text>
 
         <!-- Island length 73½" -->
-        <line x1="338.5" y1="610" x2="706" y2="610" marker-start="url(#dimArr)" marker-end="url(#dimArr)"/>
-        <line x1="338.5" y1="518" x2="338.5" y2="615" stroke-width="0.8"/>
-        <line x1="706" y1="518" x2="706" y2="615" stroke-width="0.8"/>
-        <text x="522" y="605" font-size="14" text-anchor="middle" stroke="none" font-weight="600">73½″</text>
+        <line x1="338.5" y1="640" x2="706" y2="640" marker-start="url(#dimArr)" marker-end="url(#dimArr)"/>
+        <line x1="338.5" y1="548" x2="338.5" y2="645" stroke-width="0.8"/>
+        <line x1="706" y1="548" x2="706" y2="645" stroke-width="0.8"/>
+        <text x="522" y="635" font-size="14" text-anchor="middle" stroke="none" font-weight="600">73½″</text>
 
         <!-- Back overhang 6" -->
-        <line x1="775" y1="515" x2="775" y2="545" marker-start="url(#dimArr)" marker-end="url(#dimArr)"/>
-        <line x1="700" y1="515" x2="780" y2="515" stroke-width="0.6" opacity="0.6"/>
+        <line x1="775" y1="545" x2="775" y2="575" marker-start="url(#dimArr)" marker-end="url(#dimArr)"/>
         <line x1="700" y1="545" x2="780" y2="545" stroke-width="0.6" opacity="0.6"/>
-        <text x="800" y="535" font-size="12" text-anchor="middle" stroke="none">6″ back</text>
+        <line x1="700" y1="575" x2="780" y2="575" stroke-width="0.6" opacity="0.6"/>
+        <text x="800" y="565" font-size="12" text-anchor="middle" stroke="none">6″ back</text>
       </g>
 
       <!-- North arrow + scale bar -->
@@ -630,12 +643,15 @@
   </div>
   <p style="font-size:13px;color:var(--muted);margin-top:-18px;">
     <strong>Note for Joe:</strong> dimensions reconstructed to scale from Cece's plan. The aisle is
-    set to <strong>36″ — the minimum recommended clearance</strong> between an island and opposing
-    cabinetry (NKBA lists 42″ as ideal for a one-cook work aisle; 36″ is the accepted minimum). At
-    36″ the 42″-deep island sits 6″ closer to the sink/range run and the seating (south) edge lands
-    ≈103″ off the back wall, leaving plenty of room for the stool backs — which project ≈6″ past the
-    counter edge — to clear the walkway. Verify the seat tuck/overhang against the actual
-    Interior&nbsp;Define stool (21½″ W, 19″ D, 25″ seat height) before fabrication.
+    set to <strong>42″</strong> — the NKBA-recommended one-cook work aisle — because the
+    <strong>Bosch&nbsp;800 dishwasher (DISHW24) opens directly toward the island</strong>: its door
+    projects ≈24″ into the aisle, leaving ≈17½″ of clear space in front to stand and load. A 36″
+    aisle would leave only ≈11″ there, nearly hitting the island, so 42″ is the practical minimum.
+    The <strong>42″ is the finished Taj&nbsp;Lusso countertop</strong> (the slab edge that the aisle
+    is measured to); the base cabinet is ~24″ with the overhang carried on the seating side, where
+    the three stool backs project ≈6″ past the counter edge (seating edge ≈109″ off the back wall,
+    inside the 119″ wall). Verify the seat tuck/overhang against the actual Interior&nbsp;Define stool
+    (21½″ W, 19″ D, 25″ seat height) before fabrication.
   </p>
 
   <h3>Sitting Area Cabinet · 25½" W × 84" H</h3>
