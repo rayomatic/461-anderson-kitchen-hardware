@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>461 Anderson — Hardware Plan</title>
-<meta name="description" content="Final hardware specification for the 461 Anderson renovation. Kitchen (Emtek Westridge + Paxton, Satin Brass), laundry, and office. Combined ~$920 all-in." />
+<meta name="description" content="Final hardware specification for the 461 Anderson renovation. Kitchen (Emtek Warwick + Cadet, Satin Brass), laundry, office, and hallway linen (Top Knobs Hopewell)." />
 <style>
   :root {
     --navy: #1f2a44;
@@ -104,7 +104,7 @@
 <header>
   <span class="pill">Selections updated · prices pending</span>
   <h1>461 Anderson — Hardware Plan</h1>
-  <p class="sub">Kitchen, sitting cabinet, laundry &amp; office · Emtek Warwick + Cadet (Satin Brass), plus Top Knobs Hopewell for laundry &amp; office</p>
+  <p class="sub">Kitchen, sitting cabinet, laundry, office &amp; hallway linen · Emtek Warwick + Cadet (Satin Brass), plus Top Knobs Hopewell for laundry, office &amp; linen</p>
 </header>
 
 <section>
@@ -115,15 +115,19 @@
     </div>
     <div class="card">
       <div class="k">Laundry pieces</div>
-      <div class="v">4</div>
+      <div class="v">7</div>
     </div>
     <div class="card">
       <div class="k">Office pieces</div>
       <div class="v">4</div>
     </div>
     <div class="card">
+      <div class="k">Linen pieces</div>
+      <div class="v">4</div>
+    </div>
+    <div class="card">
       <div class="k">Total pieces</div>
-      <div class="v">45</div>
+      <div class="v">52</div>
     </div>
   </div>
 </section>
@@ -509,9 +513,9 @@
   </div>
 
   <h3>Laundry Room · Sage Leaf (PM779)</h3>
-  <p style="font-size:14px;color:var(--muted);margin-bottom:8px;">Two opposing walls (schematic). <span style="color:#8f9396;font-weight:600;">Silver bars</span> = Top Knobs Hopewell 15" CtC bar pull, Brushed Satin Nickel (M433A-BSN), mounted vertically with center ~48" off floor. 4 pulls total.</p>
+  <p style="font-size:14px;color:var(--muted);margin-bottom:8px;">Two opposing walls (schematic). <span style="color:#8f9396;font-weight:600;">Silver bars</span> = Top Knobs Hopewell, Brushed Satin Nickel: 15" CtC (M433A-BSN) vertical on the towers + W/D door, center ~48" off floor · 5-1/16" CtC (M430) on the three upper doors, <strong>bottom-anchored on the shared 71" AFF line</strong>. 7 pulls total.</p>
   <div class="elevation">
-    <svg viewBox="0 0 640 545" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Laundry room elevation">
+    <svg viewBox="0 -140 640 685" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Laundry room elevation">
       <defs>
         <pattern id="sageL" patternUnits="userSpaceOnUse" width="14" height="14">
           <rect width="14" height="14" fill="#97a585"/>
@@ -521,7 +525,7 @@
       <line x1="0" y1="510" x2="640" y2="510" stroke="#cdc6b6"/>
 
       <!-- LEFT WALL: 22"W x 49"H cabinet (W/D enclosure upper) -->
-      <text x="106" y="22" font-size="11" fill="#6b6b6b" text-anchor="middle">Left wall · 22"W × 49"H</text>
+      <text x="106" y="-116" font-size="11" fill="#6b6b6b" text-anchor="middle">Left wall · 22"W × 49"H</text>
       <!-- washer/dryer below (reference only) -->
       <rect x="40" y="330" width="132" height="180" fill="#ededed" stroke="#bbb" stroke-dasharray="4 3"/>
       <text x="106" y="425" font-size="10" fill="#999" text-anchor="middle" font-style="italic">W / D</text>
@@ -531,14 +535,28 @@
       <rect x="50" y="138" width="6" height="90" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
 
       <!-- RIGHT WALL: 3 x 16"W x 68"H tall cabinets -->
-      <text x="444" y="22" font-size="11" fill="#6b6b6b" text-anchor="middle">Right wall · 3 × 16"W × 68"H</text>
+      <text x="444" y="-116" font-size="11" fill="#6b6b6b" text-anchor="middle">Right wall · 3 × 16"W × 68"H + uppers (bottoms 71" AFF)</text>
       <rect x="300" y="102" width="96" height="408" fill="url(#sageL)" stroke="#5f6b52"/>
       <rect x="396" y="102" width="96" height="408" fill="url(#sageL)" stroke="#5f6b52"/>
       <rect x="492" y="102" width="96" height="408" fill="url(#sageL)" stroke="#5f6b52"/>
-      <!-- pulls: left cab RIGHT edge, middle cab RIGHT edge, right cab LEFT edge (French-door pair) -->
+      <!-- tower pulls: left cab RIGHT edge, middle cab RIGHT edge, right cab LEFT edge (French-door pair) -->
       <rect x="384" y="261" width="6" height="90" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
       <rect x="480" y="261" width="6" height="90" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
       <rect x="498" y="261" width="6" height="90" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
+
+      <!-- UPPER ROW: bottoms at 71" AFF (y=84) · one 29"H + two 21–23"H (positions VIF) -->
+      <rect x="300" y="-90" width="96" height="174" fill="url(#sageL)" stroke="#5f6b52"/>
+      <rect x="396" y="-48" width="96" height="132" fill="url(#sageL)" stroke="#5f6b52"/>
+      <rect x="492" y="-48" width="96" height="132" fill="url(#sageL)" stroke="#5f6b52"/>
+      <text x="348" y="-98" font-size="9" fill="#6b6b6b" text-anchor="middle">29"H</text>
+      <text x="492" y="-56" font-size="9" fill="#6b6b6b" text-anchor="middle">21–23"H</text>
+      <!-- M430 pulls: identical, vertical, bases aligned on the shared bottom line (~71" AFF), same edges as the tower pulls below -->
+      <rect x="384" y="36" width="6" height="42" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
+      <rect x="480" y="36" width="6" height="42" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
+      <rect x="498" y="36" width="6" height="42" rx="2" fill="#ccd0d2" stroke="#8f9396"/>
+      <!-- 71" AFF datum line -->
+      <line x1="288" y1="84" x2="600" y2="84" stroke="#b0543c" stroke-width="0.8" stroke-dasharray="5 4"/>
+      <text x="604" y="87" font-size="9" fill="#b0543c">71" AFF</text>
     </svg>
   </div>
 
@@ -576,6 +594,35 @@
       <!-- ORB horizontal pulls centered on each drawer -->
       <rect x="158" y="364" width="44" height="6" rx="2" fill="#463a2c" stroke="#241c14"/>
       <rect x="158" y="439" width="44" height="6" rx="2" fill="#463a2c" stroke="#241c14"/>
+    </svg>
+  </div>
+
+  <h3>Hallway Linen · Matt White melamine</h3>
+  <p style="font-size:14px;color:var(--muted);margin-bottom:8px;">Melamine pantry unit (Cyncly quote 070726) — 38"W × 108"H × 14¼"D in the linen alcove: 36" cabinet + 1" fillers + 14" top panel. <span style="color:#463a2c;font-weight:600;">Bronze bars</span> = Top Knobs Hopewell 8-13/16" CtC, Oil Rubbed Bronze (M760) — matches the adjacent Emtek Orb bath/bedroom door hardware and the office cabinet. 4 pulls, vertical at the meeting stiles, clustered at the mid-rail.</p>
+  <div class="elevation">
+    <svg viewBox="0 0 360 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hallway linen melamine unit elevation">
+      <line x1="0" y1="530" x2="360" y2="530" stroke="#cdc6b6"/>
+      <text x="180" y="20" font-size="11" fill="#6b6b6b" text-anchor="middle">Linen · Matt White · 38"W × 108"H × 14¼"D</text>
+
+      <!-- alcove sides (drywall) -->
+      <rect x="86" y="34" width="9" height="496" fill="#e9e4d8"/>
+      <rect x="265" y="34" width="9" height="496" fill="#e9e4d8"/>
+      <!-- top panel WEP381401 (14"H) -->
+      <rect x="95" y="34" width="170" height="63" fill="#f4f3ef" stroke="#b9b6ad"/>
+      <text x="180" y="71" font-size="9" fill="#9a968c" text-anchor="middle" font-style="italic">WEP381401 · 14" panel</text>
+      <!-- cabinet U369413: 36"W x 94"H (1" fillers each side) -->
+      <rect x="97" y="97" width="7" height="433" fill="#e0ddd4" stroke="#b9b6ad"/>
+      <rect x="256" y="97" width="7" height="433" fill="#e0ddd4" stroke="#b9b6ad"/>
+      <rect x="104" y="97" width="152" height="433" fill="#fbfbf9" stroke="#b9b6ad"/>
+      <!-- door split: uppers ~55" / lowers ~38" -->
+      <line x1="180" y1="97" x2="180" y2="530" stroke="#b9b6ad"/>
+      <line x1="104" y1="345" x2="256" y2="345" stroke="#b9b6ad" stroke-width="2"/>
+      <!-- M760 ORB pulls: uppers at bottom-inner corners, lowers at top-inner corners -->
+      <rect x="169" y="288" width="5" height="49" rx="2" fill="#463a2c" stroke="#241c14"/>
+      <rect x="186" y="288" width="5" height="49" rx="2" fill="#463a2c" stroke="#241c14"/>
+      <rect x="169" y="353" width="5" height="49" rx="2" fill="#463a2c" stroke="#241c14"/>
+      <rect x="186" y="353" width="5" height="49" rx="2" fill="#463a2c" stroke="#241c14"/>
+      <text x="180" y="550" font-size="9" fill="#9a968c" text-anchor="middle" font-style="italic">4 × M760 converge at the mid-rail — same pattern as the sitting cabinet</text>
     </svg>
   </div>
 </section>
@@ -644,13 +691,14 @@
 
 <section>
   <h2>Laundry room — Sage Leaf (PM779)</h2>
-  <p style="font-size: 14px; color: var(--muted);">Top Knobs Hopewell Bar Pull 15" CtC, Brushed Satin Nickel — proportionally sized for the tall 68" doors. Same Hopewell Bar Pull family as the office, just longer and in BSN finish.</p>
+  <p style="font-size: 14px; color: var(--muted);">Top Knobs Hopewell Bar Pulls, Brushed Satin Nickel. 15" CtC on the tall doors (proportional — ~22% of the 68" door height). 5-1/16" CtC on the three upper doors, <strong>uniform and bottom-anchored</strong> — with cabinet bottoms at 71" AFF the pulls read as a row at eye level while the door tops vary, so a matched size on a shared datum beats per-door proportion. Sized to the shortest (21") door.</p>
   <table>
     <thead>
       <tr><th>Item</th><th>SKU</th><th>Source</th><th class="num">Qty</th><th class="num">Each</th><th class="num">Total</th></tr>
     </thead>
     <tbody>
-      <tr><td>Hopewell Bar Pull 15" CtC, Brushed Satin Nickel</td><td>M433A-BSN</td><td>Knobs.co or TopKnobSupply.com</td><td class="num">4</td><td class="num">$20.48</td><td class="num">$81.92</td></tr>
+      <tr><td>Hopewell Bar Pull 15" CtC, Brushed Satin Nickel <span style="color:var(--muted)">(✅ delivered &amp; installed)</span></td><td>M433A-BSN</td><td>Ferguson Home</td><td class="num">4</td><td class="num">$19.68</td><td class="num">$78.72</td></tr>
+      <tr><td>Hopewell Bar Pull 5-1/16" CtC, Brushed Satin Nickel <span style="color:var(--muted)">(uppers — to order)</span></td><td>M430</td><td>Ferguson Home (fallback: TopKnobSupply)</td><td class="num">3</td><td class="num">~$11</td><td class="num">~$33</td></tr>
     </tbody>
   </table>
   <h3>Per-cabinet assignment</h3>
@@ -661,9 +709,33 @@
       <tr><td>16"W × 68"H — right wall, leftmost</td><td>1 × 15" vertical pull</td><td>Mounted on RIGHT edge (hinged on left)</td></tr>
       <tr><td>16"W × 68"H — right wall, middle</td><td>1 × 15" vertical pull</td><td>Mounted on RIGHT edge (paired with right cabinet, French-door style)</td></tr>
       <tr><td>16"W × 68"H — right wall, rightmost</td><td>1 × 15" vertical pull</td><td>Mounted on LEFT edge (paired with middle, French-door style)</td></tr>
+      <tr><td>Upper, 29"H (tallest — position VIF)</td><td>1 × 5-1/16" vertical pull (M430)</td><td rowspan="2">Identical pulls, vertical on the same edge as the tower pull below, <strong>bases aligned on the shared 71" AFF bottom line</strong> (grab zone ~72–75"). Align with a story stick — a ¼" stagger reads at eye level.</td></tr>
+      <tr><td>Uppers, 21–23"H (×2)</td><td>2 × 5-1/16" vertical pull (M430)</td></tr>
     </tbody>
   </table>
-  <p style="font-size: 14px; color: var(--muted);">All four pulls mounted vertically with center at ~48" off floor. <strong>Why 15":</strong> on 68" tall doors, 15" CtC is ~22% of door height — proportional sweet spot per the 1/3 design rule. 8-13/16" looks small and afterthought-y at only 13% of door height. Cost difference is tiny (~$16 total) so the upgrade is essentially free.</p>
+  <p style="font-size: 14px; color: var(--muted);">Tower pulls mounted vertically with center at ~48" off floor (installed). <strong>Why uniform M430 on the uppers:</strong> the proportional rule assumes the viewer reads pull-to-door ratio, but at 71"+ AFF you only see the pulls on a common baseline — mixed lengths there look like an install error. 5-1/16" (7" OAL) also keeps the bar to ⅓ of the shortest door instead of half.</p>
+</section>
+
+<section>
+  <h2>Hallway linen — Matt White melamine</h2>
+  <p style="font-size: 14px; color: var(--muted);">Melamine pantry unit per Cyncly quote 070726 (38"W × 108"H × 14¼"D, matt white w/ white box) replacing the site-built shelf plan. Hardware: <strong>Top Knobs Hopewell 8-13/16" CtC, Oil Rubbed Bronze (M760)</strong> — the closet sits beside the Emtek Orb (US10B) bath/bedroom door hardware, so it takes ORB, exactly like the office cabinet. Same SKU as the office = zero new vocabulary.</p>
+  <table>
+    <thead>
+      <tr><th>Item</th><th>SKU</th><th>Source</th><th class="num">Qty</th><th class="num">Each</th><th class="num">Total</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Hopewell Bar Pull 8-13/16" CtC, Oil Rubbed Bronze</td><td>M760</td><td>Ferguson Home (reorder — same SKU as office, cart #82-513995545)</td><td class="num">4</td><td class="num">$16.52</td><td class="num">$66.08</td></tr>
+    </tbody>
+  </table>
+  <h3>Per-door assignment</h3>
+  <table>
+    <thead><tr><th>Door</th><th>Hardware</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Upper doors ×2 (~55"H)</td><td>2 × M760, vertical</td><td>Bottom-inner corners at the meeting stiles</td></tr>
+      <tr><td>Lower doors ×2 (~38"H)</td><td>2 × M760, vertical</td><td>Top-inner corners at the meeting stiles</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size: 14px; color: var(--muted);">All four bars converge at the mid-rail — the same furniture pattern as the sitting cabinet. <strong>Tell the closet vendor: no pre-drilling</strong> (or drill 224mm/8-13/16" CtC only). 8-13/16" lands at ~16% of the upper doors and ~23% of the lowers, so one SKU covers all four.</p>
 </section>
 
 <section>
@@ -696,12 +768,14 @@
     </thead>
     <tbody>
       <tr><td>Kitchen + sitting cabinet (Emtek Warwick pull + Cadet mushroom knob, Satin Brass)</td><td>Cape Cod Brass</td><td class="num">TBC</td></tr>
-      <tr><td>Laundry (Top Knobs Hopewell Bar Pull 15", BSN — M433A-BSN × 4)</td><td>Knobs.co / TopKnobSupply</td><td class="num">$81.92 + tax</td></tr>
+      <tr><td>Laundry towers (Hopewell 15" BSN — M433A-BSN × 4) ✅ delivered</td><td>Ferguson Home</td><td class="num">$78.72</td></tr>
+      <tr><td>Laundry uppers (Hopewell 5-1/16" BSN — M430 × 3) — to order</td><td>Ferguson Home (fallback TopKnobSupply)</td><td class="num">~$33</td></tr>
+      <tr><td>Hallway linen (Hopewell 8-13/16" ORB — M760 × 4) — to order</td><td>Ferguson Home</td><td class="num">$66.08</td></tr>
       <tr><td>Office (Top Knobs Hopewell ORB — M760-ORB × 4)</td><td>TopKnobSupply.com</td><td class="num">TBC</td></tr>
       <tr class="total"><td colspan="2">Combined estimate</td><td class="num">TBC — re-quote pending</td></tr>
     </tbody>
   </table>
-  <p style="margin-top: 12px; font-size: 14px; color: var(--muted);"><strong>Note:</strong> SKUs and prices for the Emtek Cadet/Warwick line and Hopewell M760-ORB are pending confirmation. Quantities, sizes, and per-cabinet assignments are final. Re-quote at Cape Cod Brass (Emtek) and TopKnobSupply (Hopewell). Still recommend combining laundry + office into a single Top Knobs order to clear free shipping at Knobs.co ($99) or TopKnobSupply ($75).</p>
+  <p style="margin-top: 12px; font-size: 14px; color: var(--muted);"><strong>Status (2026-07-16):</strong> Kitchen, sitting cabinet, laundry towers, and office hardware all ordered 5/27 via Ferguson Home (cart #82-513995545) and <strong>delivered</strong>. Remaining to order: laundry uppers (M430 × 3) + linen unit (M760 × 4) — one Ferguson basket, ~$99, clears the $49 free-shipping bar. ⚠️ M430 may be discontinued at Ferguson; fallback TopKnobSupply/Knobs.co (~$11).</p>
 </section>
 
 <section>
